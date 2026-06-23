@@ -1,10 +1,9 @@
 <!DOCTYPE html>
 <html lang="es" class="scroll-smooth">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BAG READY - Mochila de emergencia integral | Bolivia</title>
+    <title>BAG READY - Mochila de Rescate Inteligente y Pre-armada | Bolivia</title>
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- FontAwesome Icons -->
@@ -12,10 +11,8 @@
     <!-- Google Fonts: Space Grotesk & Inter -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap"
-        rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+    
     <script>
         tailwind.config = {
             theme: {
@@ -44,62 +41,44 @@
         .glow-red {
             box-shadow: 0 0 30px -5px rgba(220, 38, 38, 0.35);
         }
-
         .glow-yellow {
             box-shadow: 0 0 30px -5px rgba(245, 158, 11, 0.25);
         }
-
         .text-outline-tactical {
             -webkit-text-stroke: 1px rgba(255, 255, 255, 0.1);
             color: transparent;
         }
     </style>
 </head>
-
-<body
-    class="bg-tactical-darkBg text-tactical-lightText font-sans antialiased selection:bg-tactical-redAlert selection:text-white">
+<body class="bg-tactical-darkBg text-tactical-lightText font-sans antialiased selection:bg-tactical-redAlert selection:text-white">
 
     <!-- HEADER & NAVIGATION -->
     <header class="fixed top-0 left-0 w-full z-50 bg-tactical-darkBg/95 backdrop-blur-md border-b border-slate-800">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
             <div class="flex items-center gap-3">
-                <div
-                    class="w-11 h-11 rounded-lg bg-gradient-to-br from-tactical-redAlert to-tactical-yellowAlert flex items-center justify-center text-white font-bold text-xl shadow-lg">
+                <div class="w-11 h-11 rounded-lg bg-gradient-to-br from-tactical-redAlert to-tactical-yellowAlert flex items-center justify-center text-white font-bold text-xl shadow-lg">
                     <i class="fa-solid fa-box-tissue animate-pulse"></i>
                 </div>
                 <div>
-                    <span class="font-display font-bold text-2xl tracking-tight text-white block">BAG<span
-                            class="text-tactical-redAlert">READY</span></span>
-                    <span
-                        class="text-[9px] tracking-widest text-tactical-yellowAlert uppercase font-bold block -mt-1">TECNOLOGÍA
-                        DE SALVAMENTO • BOLIVIA</span>
+                    <span class="font-display font-bold text-2xl tracking-tight text-white block">BAG<span class="text-tactical-redAlert">READY</span></span>
+                    <span class="text-[9px] tracking-widest text-tactical-yellowAlert uppercase font-bold block -mt-1">TECNOLOGÍA DE SALVAMENTO • BOLIVIA</span>
                 </div>
             </div>
 
             <!-- Desktop Nav -->
             <nav class="hidden lg:flex items-center gap-6">
-                <a href="#inicio"
-                    class="text-xs font-semibold text-slate-300 hover:text-white transition-colors uppercase tracking-wider">Inicio</a>
-                <a href="#problema"
-                    class="text-xs font-semibold text-slate-300 hover:text-white transition-colors uppercase tracking-wider">Dolores
-                    de Rescate</a>
-                <a href="#producto"
-                    class="text-xs font-semibold text-slate-300 hover:text-white transition-colors uppercase tracking-wider">La
-                    Mochila</a>
-                <a href="#destinatarios"
-                    class="text-xs font-semibold text-slate-300 hover:text-white transition-colors uppercase tracking-wider">Segmentos</a>
-                <a href="#mercado"
-                    class="text-xs font-semibold text-slate-300 hover:text-white transition-colors uppercase tracking-wider">Mercado
-                    (Bolivia)</a>
-                <a href="#canvas"
-                    class="inline-flex items-center gap-2 bg-tactical-slateGray/60 hover:bg-tactical-slateGray text-tactical-yellowAlert border border-tactical-yellowAlert/30 px-3 py-1.5 rounded-lg text-xs font-semibold transition-all uppercase tracking-wider">
+                <a href="#inicio" class="text-xs font-semibold text-slate-300 hover:text-white transition-colors uppercase tracking-wider">Inicio</a>
+                <a href="#problema" class="text-xs font-semibold text-slate-300 hover:text-white transition-colors uppercase tracking-wider">Dolores de Rescate</a>
+                <a href="#producto" class="text-xs font-semibold text-slate-300 hover:text-white transition-colors uppercase tracking-wider">La Mochila</a>
+                <a href="#destinatarios" class="text-xs font-semibold text-slate-300 hover:text-white transition-colors uppercase tracking-wider">Segmentos</a>
+                <a href="#mercado" class="text-xs font-semibold text-slate-300 hover:text-white transition-colors uppercase tracking-wider">Mercado (Bolivia)</a>
+                <a href="#canvas" class="inline-flex items-center gap-2 bg-tactical-slateGray/60 hover:bg-tactical-slateGray text-tactical-yellowAlert border border-tactical-yellowAlert/30 px-3 py-1.5 rounded-lg text-xs font-semibold transition-all uppercase tracking-wider">
                     <i class="fa-solid fa-file-invoice"></i> Lean Canvas
                 </a>
             </nav>
 
             <div class="hidden lg:flex items-center gap-4">
-                <a href="#estimador"
-                    class="bg-tactical-redAlert hover:bg-tactical-redHover text-white px-5 py-2.5 rounded-lg text-xs font-bold transition-all transform hover:scale-[1.02] uppercase tracking-wider">
+                <a href="#estimador" class="bg-tactical-redAlert hover:bg-tactical-redHover text-white px-5 py-2.5 rounded-lg text-xs font-bold transition-all transform hover:scale-[1.02] uppercase tracking-wider">
                     Cotizar Flotas
                 </a>
             </div>
@@ -111,29 +90,21 @@
         </div>
 
         <!-- Mobile Menu panel -->
-        <div id="mobile-menu"
-            class="hidden lg:hidden bg-tactical-darkBg/98 border-b border-slate-800 px-4 pt-2 pb-6 space-y-3">
+        <div id="mobile-menu" class="hidden lg:hidden bg-tactical-darkBg/98 border-b border-slate-800 px-4 pt-2 pb-6 space-y-3">
             <a href="#inicio" class="block py-2 text-base font-medium text-slate-300 hover:text-white">Inicio</a>
-            <a href="#problema" class="block py-2 text-base font-medium text-slate-300 hover:text-white">Dolores de
-                Rescate</a>
+            <a href="#problema" class="block py-2 text-base font-medium text-slate-300 hover:text-white">Dolores de Rescate</a>
             <a href="#producto" class="block py-2 text-base font-medium text-slate-300 hover:text-white">La Mochila</a>
-            <a href="#destinatarios"
-                class="block py-2 text-base font-medium text-slate-300 hover:text-white">Segmentos</a>
-            <a href="#mercado" class="block py-2 text-base font-medium text-slate-300 hover:text-white">Mercado
-                (Bolivia)</a>
-            <a href="#canvas"
-                class="block py-2.5 px-4 text-base font-medium text-tactical-yellowAlert bg-slate-800/60 rounded-lg">
+            <a href="#destinatarios" class="block py-2 text-base font-medium text-slate-300 hover:text-white">Segmentos</a>
+            <a href="#mercado" class="block py-2 text-base font-medium text-slate-300 hover:text-white">Mercado (Bolivia)</a>
+            <a href="#canvas" class="block py-2.5 px-4 text-base font-medium text-tactical-yellowAlert bg-slate-800/60 rounded-lg">
                 <i class="fa-solid fa-file-invoice mr-2"></i> Lean Canvas
             </a>
-            <a href="#estimador"
-                class="block w-full text-center bg-tactical-redAlert text-white py-3 rounded-lg font-bold uppercase tracking-wider text-xs">Simular
-                Demanda</a>
+            <a href="#estimador" class="block w-full text-center bg-tactical-redAlert text-white py-3 rounded-lg font-bold uppercase tracking-wider text-xs">Simular Demanda</a>
         </div>
     </header>
 
     <!-- HERO SECTION -->
-    <section id="inicio"
-        class="relative pt-32 pb-24 md:pt-48 md:pb-36 overflow-hidden bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-slate-900 via-tactical-darkBg to-tactical-darkBg">
+    <section id="inicio" class="relative pt-32 pb-24 md:pt-48 md:pb-36 overflow-hidden bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-slate-900 via-tactical-darkBg to-tactical-darkBg">
         <!-- Bolivian Flag accent line on top -->
         <div class="absolute top-20 left-0 w-full h-[3px] flex">
             <div class="bg-red-600 h-full w-1/3"></div>
@@ -143,69 +114,51 @@
 
         <!-- Grid pattern overlay -->
         <div class="absolute inset-0 opacity-[0.03] pointer-events-none">
-            <div
-                class="absolute inset-0 bg-[linear-gradient(to_right,#ffffff_1px,transparent_1px),linear-gradient(to_bottom,#ffffff_1px,transparent_1px)] bg-[size:3rem_3rem]">
-            </div>
+            <div class="absolute inset-0 bg-[linear-gradient(to_right,#ffffff_1px,transparent_1px),linear-gradient(to_bottom,#ffffff_1px,transparent_1px)] bg-[size:3rem_3rem]"></div>
         </div>
 
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
             <div class="grid lg:grid-cols-12 gap-12 items-center">
-
+                
                 <!-- Hero Left -->
                 <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
-                    <div
-                        class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-slate-800 border border-slate-700 text-tactical-yellowAlert text-xs font-bold tracking-wider uppercase">
+                    <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-slate-800 border border-slate-700 text-tactical-yellowAlert text-xs font-bold tracking-wider uppercase">
                         <span class="flex h-2 w-2 relative">
-                            <span
-                                class="animate-ping absolute inline-flex h-full w-full rounded-full bg-tactical-redAlert opacity-75"></span>
+                            <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-tactical-redAlert opacity-75"></span>
                             <span class="relative inline-flex rounded-full h-2 w-2 bg-tactical-redAlert"></span>
                         </span>
-                        Iniciativa Tecnológica de UTEPSA
+                        Iniciativa Tecnológica de UTEPSA • Mod 5
                     </div>
-
+                    
                     <h1 class="text-4xl sm:text-5xl lg:text-6xl font-display font-extrabold text-white leading-tight">
-                        Mochila de emergencia táctica, <span
-                            class="text-transparent bg-clip-text bg-gradient-to-r from-tactical-redAlert via-tactical-yellowAlert to-tactical-greenForest">pre-armada
-                            e integral</span>
+                        Mochila de rescate táctica, <span class="text-transparent bg-clip-text bg-gradient-to-r from-tactical-redAlert via-tactical-yellowAlert to-tactical-greenForest">pre-armada e integral</span>
                     </h1>
-
+                    
                     <p class="text-slate-300 text-base sm:text-lg max-w-2xl mx-auto lg:mx-0 font-light leading-relaxed">
-                        Desarrollada para resistir las condiciones geográficas y de respuesta más extremas de Bolivia.
-                        Diseñada para mantener el equipamiento de primera línea organizado, clasificado por
-                        compartimientos, protegido y siempre al alcance.
+                        Desarrollada para resistir las condiciones geográficas y de respuesta más extremas de Bolivia. Diseñada para mantener el equipamiento de primera línea organizado, clasificado por colores, protegido y siempre al alcance.
                     </p>
 
-                    <div
-                        class="border-l-4 border-tactical-redAlert pl-4 py-1.5 my-4 bg-tactical-redAlert/5 max-w-xl mx-auto lg:mx-0 text-left">
-                        <span class="block text-xs font-bold text-tactical-redAlert uppercase tracking-wider">Propuesta
-                            de Valor Única:</span>
+                    <div class="border-l-4 border-tactical-redAlert pl-4 py-1.5 my-4 bg-tactical-redAlert/5 max-w-xl mx-auto lg:mx-0 text-left">
+                        <span class="block text-xs font-bold text-tactical-redAlert uppercase tracking-wider">Propuesta de Valor Única:</span>
                         <p class="text-sm text-slate-200 font-medium">
-                            "No es solo una mochila, es tu aliado que te permite enfocarte en lo más importante: salvar
-                            vidas."
+                            "No es solo una mochila, es tu aliado que te permite enfocarte en lo más importante: salvar vidas."
                         </p>
                     </div>
 
                     <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start pt-2">
-                        <a href="#producto"
-                            class="bg-gradient-to-r from-tactical-redAlert to-tactical-yellowAlert hover:from-tactical-redHover hover:to-tactical-redAlert text-white font-bold px-8 py-4 rounded-xl shadow-lg glow-red transition-all text-center flex items-center justify-center gap-2 text-sm uppercase tracking-wider">
+                        <a href="#producto" class="bg-gradient-to-r from-tactical-redAlert to-tactical-yellowAlert hover:from-tactical-redHover hover:to-tactical-redAlert text-white font-bold px-8 py-4 rounded-xl shadow-lg glow-red transition-all text-center flex items-center justify-center gap-2 text-sm uppercase tracking-wider">
                             Explorar Componentes <i class="fa-solid fa-magnifying-glass-plus"></i>
                         </a>
-                        <a href="#canvas"
-                            class="bg-tactical-cardBg hover:bg-slate-800 border border-slate-700 text-slate-200 font-semibold px-8 py-4 rounded-xl transition-all text-center flex items-center justify-center gap-2 text-sm uppercase tracking-wider">
+                        <a href="#canvas" class="bg-tactical-cardBg hover:bg-slate-800 border border-slate-700 text-slate-200 font-semibold px-8 py-4 rounded-xl transition-all text-center flex items-center justify-center gap-2 text-sm uppercase tracking-wider">
                             Análisis Lean Canvas <i class="fa-solid fa-chart-pie text-tactical-yellowAlert"></i>
                         </a>
                     </div>
 
                     <!-- Trust indicators inside Bolivia -->
-                    <div
-                        class="flex flex-wrap gap-4 items-center justify-center lg:justify-start pt-6 border-t border-slate-800/80 max-w-lg mx-auto lg:mx-0 text-xs text-slate-400">
-                        <span class="font-bold tracking-widest text-tactical-yellowAlert uppercase">Soporta Operaciones
-                            de:</span>
-                        <span class="flex items-center gap-1.5"><i class="fa-solid fa-fire text-tactical-redAlert"></i>
-                            Incendios Forestales (Chiquitanía)</span>
-                        <span class="flex items-center gap-1.5"><i
-                                class="fa-solid fa-mountain text-tactical-greenForest"></i> Rescate de Altura
-                            (Andes)</span>
+                    <div class="flex flex-wrap gap-4 items-center justify-center lg:justify-start pt-6 border-t border-slate-800/80 max-w-lg mx-auto lg:mx-0 text-xs text-slate-400">
+                        <span class="font-bold tracking-widest text-tactical-yellowAlert uppercase">Soporta Operaciones de:</span>
+                        <span class="flex items-center gap-1.5"><i class="fa-solid fa-fire text-tactical-redAlert"></i> Incendios Forestales (Chiquitanía)</span>
+                        <span class="flex items-center gap-1.5"><i class="fa-solid fa-mountain text-tactical-greenForest"></i> Rescate de Altura (Andes)</span>
                     </div>
                 </div>
 
@@ -213,86 +166,63 @@
                 <div class="lg:col-span-5 relative">
                     <div class="relative mx-auto max-w-[420px] lg:max-w-none">
                         <!-- Card Border Glow -->
-                        <div
-                            class="relative bg-gradient-to-b from-slate-800 to-tactical-cardBg rounded-3xl p-6 border border-slate-700 shadow-2xl overflow-hidden glow-red">
-                            <div
-                                class="absolute top-4 right-4 bg-tactical-redAlert/20 border border-tactical-redAlert/50 text-tactical-yellowAlert px-2.5 py-1 rounded text-[10px] font-mono font-bold tracking-widest uppercase">
+                        <div class="relative bg-gradient-to-b from-slate-800 to-tactical-cardBg rounded-3xl p-6 border border-slate-700 shadow-2xl overflow-hidden glow-red">
+                            <div class="absolute top-4 right-4 bg-tactical-redAlert/20 border border-tactical-redAlert/50 text-tactical-yellowAlert px-2.5 py-1 rounded text-[10px] font-mono font-bold tracking-widest uppercase">
                                 PROTOTIPO READY-1
                             </div>
 
                             <h3 class="font-display font-bold text-xl text-white">ESQUEMA CONCEPTUAL</h3>
-                            <p class="text-[10px] text-slate-400 uppercase tracking-widest mb-6">Componentes de Primera
-                                Respuesta Integrados</p>
+                            <p class="text-[10px] text-slate-400 uppercase tracking-widest mb-6">Componentes de Primera Respuesta Integrados</p>
 
                             <!-- Interactive Backpack Graphic Container (Adapted from document Conceptual Card) -->
-                            <div
-                                class="relative bg-slate-950/90 rounded-2xl p-4 border border-slate-800 min-h-[340px] flex flex-col justify-between">
-
+                            <div class="relative bg-slate-950/90 rounded-2xl p-4 border border-slate-800 min-h-[340px] flex flex-col justify-between">
+                                
                                 <div class="flex justify-center relative my-4">
                                     <!-- Schematic SVG Representation of BAG READY based on page 9 -->
-                                    <svg class="w-44 h-44 text-slate-500" viewBox="0 0 24 24" fill="none"
-                                        stroke="currentColor" stroke-width="1" stroke-linecap="round">
+                                    <svg class="w-44 h-44 text-slate-500" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round">
                                         <!-- Main body -->
-                                        <path d="M6 7a3 3 0 013-3h6a3 3 0 013 3v11a4 4 0 01-4 4H10a4 4 0 01-4-4V7z"
-                                            fill="#131A2A" stroke="#475569" stroke-width="1.5" />
+                                        <path d="M6 7a3 3 0 013-3h6a3 3 0 013 3v11a4 4 0 01-4 4H10a4 4 0 01-4-4V7z" fill="#131A2A" stroke="#475569" stroke-width="1.5" />
                                         <!-- Front zipped pocket -->
-                                        <path d="M8 9h8v8a2 2 0 01-2 2h-4a2 2 0 01-2-2V9z" fill="#090D16"
-                                            stroke="#EF4444" stroke-width="1.2" />
+                                        <path d="M8 9h8v8a2 2 0 01-2 2h-4a2 2 0 01-2-2V9z" fill="#090D16" stroke="#EF4444" stroke-width="1.2" />
                                         <!-- Side Molle pockets -->
-                                        <path
-                                            d="M4 10h2v6H4a1 1 0 01-1-1v-4a1 1 0 011-1zM18 10h2v6h-2a1 1 0 01-1-1v-4a1 1 0 011-1z"
-                                            fill="#1E293B" stroke="#475569" />
+                                        <path d="M4 10h2v6H4a1 1 0 01-1-1v-4a1 1 0 011-1zM18 10h2v6h-2a1 1 0 01-1-1v-4a1 1 0 011-1z" fill="#1E293B" stroke="#475569" />
                                         <!-- Top handle -->
-                                        <path d="M10 4V2.5a.5.5 0 01.5-.5h3a.5.5 0 01.5.5V4" stroke="#64748B"
-                                            stroke-width="1.5" />
+                                        <path d="M10 4V2.5a.5.5 0 01.5-.5h3a.5.5 0 01.5.5V4" stroke="#64748B" stroke-width="1.5" />
                                         <!-- Emergency Cross Indicator -->
                                         <circle cx="12" cy="14" r="2.5" fill="#DC2626" />
                                         <path d="M12 12.5v3M10.5 14h3" stroke="white" stroke-width="1" />
                                         <!-- Straps loops -->
-                                        <path d="M7 6v14M17 6v14" stroke="#475569" stroke-width="1"
-                                            stroke-dasharray="2 2" />
+                                        <path d="M7 6v14M17 6v14" stroke="#475569" stroke-width="1" stroke-dasharray="2 2" />
                                     </svg>
 
                                     <!-- Hotspots linked to the page 9 backpack parts -->
-                                    <button
-                                        onclick="showFeature('meds', 'Botiquín de Primeros Auxilios con insumos estandarizados para trauma y quemaduras.')"
-                                        class="absolute top-[35%] left-[24%] flex h-3.5 w-3.5 items-center justify-center rounded-full bg-tactical-redAlert text-white text-[8px] font-bold shadow-lg animate-bounce">
+                                    <button onclick="showFeature('meds', 'Botiquín de Primeros Auxilios con insumos estandarizados para trauma y quemaduras.')" class="absolute top-[35%] left-[24%] flex h-3.5 w-3.5 items-center justify-center rounded-full bg-tactical-redAlert text-white text-[8px] font-bold shadow-lg animate-bounce">
                                         +
                                     </button>
-                                    <button
-                                        onclick="showFeature('rope', 'Cuerda Vaquera de rescate altamente resistente con ganchos de tracción táctica (pausas).')"
-                                        class="absolute bottom-[35%] left-[20%] flex h-3.5 w-3.5 items-center justify-center rounded-full bg-tactical-yellowAlert text-black text-[8px] font-bold shadow-lg animate-bounce">
+                                    <button onclick="showFeature('rope', 'Cuerda Vaquera de rescate altamente resistente con ganchos de tracción táctica (pausas).')" class="absolute bottom-[35%] left-[20%] flex h-3.5 w-3.5 items-center justify-center rounded-full bg-tactical-yellowAlert text-black text-[8px] font-bold shadow-lg animate-bounce">
                                         +
                                     </button>
-                                    <button
-                                        onclick="showFeature('light', 'Linterna LED de alta potencia con sistema estroboscópico de señalización nocturna.')"
-                                        class="absolute top-[25%] right-[22%] flex h-3.5 w-3.5 items-center justify-center rounded-full bg-blue-500 text-white text-[8px] font-bold shadow-lg animate-bounce">
+                                    <button onclick="showFeature('light', 'Linterna LED de alta potencia con sistema estroboscópico de señalización nocturna.')" class="absolute top-[25%] right-[22%] flex h-3.5 w-3.5 items-center justify-center rounded-full bg-blue-500 text-white text-[8px] font-bold shadow-lg animate-bounce">
                                         +
                                     </button>
-                                    <button
-                                        onclick="showFeature('compass', 'Brújula táctica integrada de alta precisión para navegación en zonas sin cobertura de red.')"
-                                        class="absolute top-[50%] right-[20%] flex h-3.5 w-3.5 items-center justify-center rounded-full bg-tactical-greenForest text-white text-[8px] font-bold shadow-lg animate-bounce">
+                                    <button onclick="showFeature('compass', 'Brújula táctica integrada de alta precisión para navegación en zonas sin cobertura de red.')" class="absolute top-[50%] right-[20%] flex h-3.5 w-3.5 items-center justify-center rounded-full bg-tactical-greenForest text-white text-[8px] font-bold shadow-lg animate-bounce">
                                         +
                                     </button>
-                                    <button
-                                        onclick="showFeature('rehydration', 'Sobres de sales de rehidratación oral: Vitales contra el agotamiento térmico en el Chaco.')"
-                                        class="absolute bottom-[25%] right-[32%] flex h-3.5 w-3.5 items-center justify-center rounded-full bg-purple-500 text-white text-[8px] font-bold shadow-lg animate-bounce">
+                                    <button onclick="showFeature('rehydration', 'Sobres de sales de rehidratación oral: Vitales contra el agotamiento térmico en el Chaco.')" class="absolute bottom-[25%] right-[32%] flex h-3.5 w-3.5 items-center justify-center rounded-full bg-purple-500 text-white text-[8px] font-bold shadow-lg animate-bounce">
                                         +
                                     </button>
                                 </div>
 
                                 <!-- Dynamic detail box -->
                                 <div class="bg-tactical-darkBg border border-slate-800 rounded-xl p-3 text-center">
-                                    <p class="text-[10px] uppercase font-mono tracking-wider text-tactical-yellowAlert mb-0.5"
-                                        id="feature-title">Módulo Seleccionado</p>
-                                    <p class="text-xs text-slate-300 font-medium" id="feature-desc">Presiona los botones
-                                        dinámicos (+) en el diagrama para auditar los suministros.</p>
+                                    <p class="text-[10px] uppercase font-mono tracking-wider text-tactical-yellowAlert mb-0.5" id="feature-title">Módulo Seleccionado</p>
+                                    <p class="text-xs text-slate-300 font-medium" id="feature-desc">Presiona los botones dinámicos (+) en el diagrama para auditar los suministros.</p>
                                 </div>
                             </div>
 
                             <div class="mt-4 flex justify-between items-center text-[11px] text-slate-400">
-                                <span class="text-tactical-greenForest font-semibold"><i
-                                        class="fa-solid fa-shield-halved"></i> Material Impermeable</span>
+                                <span><i class="fa-solid fa-graduation-cap text-tactical-yellowAlert"></i> Proyecto Académico UTEPSA</span>
+                                <span class="text-tactical-greenForest font-semibold"><i class="fa-solid fa-shield-halved"></i> Material Impermeable</span>
                             </div>
                         </div>
                     </div>
@@ -307,45 +237,34 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="lg:flex lg:items-center lg:justify-between gap-12">
                 <div class="lg:w-1/2 space-y-6">
-                    <span class="text-tactical-redAlert uppercase text-xs font-bold tracking-widest block"><i
-                            class="fa-solid fa-circle-exclamation"></i> El Desafío Operativo</span>
+                    <span class="text-tactical-redAlert uppercase text-xs font-bold tracking-widest block"><i class="fa-solid fa-circle-exclamation"></i> El Desafío Operativo</span>
                     <h2 class="font-display font-bold text-3xl sm:text-4xl text-white">
                         Los 4 Dolores Críticos del Rescatista y Bombero en Bolivia
                     </h2>
                     <p class="text-slate-300 text-base leading-relaxed">
-                        Durante la emergencia de incendios en la Chiquitanía o rescates en estructuras urbanas en Santa
-                        Cruz, la improvisación y falta de organización cuestan minutos de oro. Nuestra investigación
-                        identificó los siguientes puntos críticos:
+                        Durante la emergencia de incendios en la Chiquitanía o rescates en estructuras urbanas en Santa Cruz, la improvisación y falta de organización cuestan minutos de oro. Nuestra investigación identificó los siguientes puntos críticos:
                     </p>
-
+                    
                     <div class="grid sm:grid-cols-2 gap-4 pt-2">
-                        <div
-                            class="p-4 rounded-xl bg-tactical-darkBg border border-slate-800 hover:border-tactical-redAlert/40 transition-all">
+                        <div class="p-4 rounded-xl bg-tactical-darkBg border border-slate-800 hover:border-tactical-redAlert/40 transition-all">
                             <span class="text-tactical-redAlert text-xl font-bold block mb-1">01</span>
                             <h4 class="font-bold text-sm text-white mb-1">Tiempo de Preparación</h4>
-                            <p class="text-xs text-slate-400">Pérdida de minutos valiosos buscando y ensamblando
-                                herramientas y suministros médicos dispersos antes de salir a la misión.</p>
+                            <p class="text-xs text-slate-400">Pérdida de minutos valiosos buscando y ensamblando herramientas y suministros médicos dispersos antes de salir a la misión.</p>
                         </div>
-                        <div
-                            class="p-4 rounded-xl bg-tactical-darkBg border border-slate-800 hover:border-tactical-redAlert/40 transition-all">
+                        <div class="p-4 rounded-xl bg-tactical-darkBg border border-slate-800 hover:border-tactical-redAlert/40 transition-all">
                             <span class="text-tactical-redAlert text-xl font-bold block mb-1">02</span>
                             <h4 class="font-bold text-sm text-white mb-1">Herramientas Dispersas</h4>
-                            <p class="text-xs text-slate-400">Inexistencia de un kit unificado y organizado por colores
-                                y compartimientos para categorizar el tipo de atención médica o rescate.</p>
+                            <p class="text-xs text-slate-400">Inexistencia de un kit unificado y organizado por colores para categorizar el tipo de atención médica o rescate.</p>
                         </div>
-                        <div
-                            class="p-4 rounded-xl bg-tactical-darkBg border border-slate-800 hover:border-tactical-redAlert/40 transition-all">
+                        <div class="p-4 rounded-xl bg-tactical-darkBg border border-slate-800 hover:border-tactical-redAlert/40 transition-all">
                             <span class="text-tactical-redAlert text-xl font-bold block mb-1">03</span>
                             <h4 class="font-bold text-sm text-white mb-1">Ansiedad del Desconocido</h4>
-                            <p class="text-xs text-slate-400">Preocupación e incertidumbre de no estar preparado de
-                                forma completa frente a escenarios geográficos imprevistos.</p>
+                            <p class="text-xs text-slate-400">Preocupación e incertidumbre de no estar preparado de forma completa frente a escenarios geográficos imprevistos.</p>
                         </div>
-                        <div
-                            class="p-4 rounded-xl bg-tactical-darkBg border border-slate-800 hover:border-tactical-redAlert/40 transition-all">
+                        <div class="p-4 rounded-xl bg-tactical-darkBg border border-slate-800 hover:border-tactical-redAlert/40 transition-all">
                             <span class="text-tactical-redAlert text-xl font-bold block mb-1">04</span>
                             <h4 class="font-bold text-sm text-white mb-1">Equipamiento Inadecuado</h4>
-                            <p class="text-xs text-slate-400">Uso de mochilas comerciales que no toleran la humedad
-                                extrema de las selvas ni el roce abrasivo de rocas de montaña.</p>
+                            <p class="text-xs text-slate-400">Uso de mochilas comerciales que no toleran la humedad extrema de las selvas ni el roce abrasivo de rocas de montaña.</p>
                         </div>
                     </div>
                 </div>
@@ -354,59 +273,36 @@
                 <div class="lg:w-1/2 mt-12 lg:mt-0">
                     <div class="bg-tactical-darkBg border border-slate-800 rounded-2xl p-6 sm:p-8">
                         <div class="flex items-center justify-between border-b border-slate-800 pb-4 mb-4">
-                            <h3
-                                class="font-display font-bold text-base text-white uppercase tracking-wider flex items-center gap-2">
-                                <i class="fa-solid fa-clock text-tactical-yellowAlert"></i> Línea de tiempo: Guardia de
-                                24 horas
+                            <h3 class="font-display font-bold text-base text-white uppercase tracking-wider flex items-center gap-2">
+                                <i class="fa-solid fa-clock text-tactical-yellowAlert"></i> Línea de Tiempo: Guardia de 24 horas
                             </h3>
-                            <span
-                                class="bg-tactical-yellowAlert/10 text-tactical-yellowAlert text-[10px] px-2 py-0.5 rounded font-mono">Arquetipo
-                                "Carlos"</span>
+                            <span class="bg-tactical-yellowAlert/10 text-tactical-yellowAlert text-[10px] px-2 py-0.5 rounded font-mono">Arquetipo "Yino"</span>
                         </div>
-                        <div
-                            class="space-y-4 max-h-[350px] overflow-y-auto pr-2 scrollbar-thin scrollbar-thumb-slate-800">
+                        <div class="space-y-4 max-h-[350px] overflow-y-auto pr-2 scrollbar-thin scrollbar-thumb-slate-800">
                             <div class="relative pl-6 border-l-2 border-tactical-redAlert/40 pb-2">
-                                <div class="absolute -left-[5px] top-1.5 w-2.5 h-2.5 rounded-full bg-tactical-redAlert">
-                                </div>
+                                <div class="absolute -left-[5px] top-1.5 w-2.5 h-2.5 rounded-full bg-tactical-redAlert"></div>
                                 <span class="text-[10px] font-mono text-tactical-redAlert block">06:30 • Inicio</span>
-                                <p class="text-xs text-slate-200 font-semibold">Preparación física y guardia atenta al
-                                    llamado de la central de bomberos.</p>
+                                <p class="text-xs text-slate-200 font-semibold">Preparación física y guardia atenta al llamado de la central de bomberos.</p>
                             </div>
                             <div class="relative pl-6 border-l-2 border-tactical-redAlert/40 pb-2">
-                                <div
-                                    class="absolute -left-[5px] top-1.5 w-2.5 h-2.5 rounded-full bg-tactical-yellowAlert">
-                                </div>
-                                <span class="text-[10px] font-mono text-tactical-yellowAlert block">16:00 • Limpieza de
-                                    Base</span>
-                                <p class="text-xs text-slate-400">Verificación manual de equipos. Se evidencia
-                                    desorganización y falta de estandarización en herramientas de botiquín.</p>
+                                <div class="absolute -left-[5px] top-1.5 w-2.5 h-2.5 rounded-full bg-tactical-yellowAlert"></div>
+                                <span class="text-[10px] font-mono text-tactical-yellowAlert block">16:00 • Limpieza de Base</span>
+                                <p class="text-xs text-slate-400">Verificación manual de equipos. Se evidencia desorganización y falta de estandarización en herramientas de botiquín.</p>
                             </div>
                             <div class="relative pl-6 border-l-2 border-tactical-redAlert/40 pb-2">
-                                <div class="absolute -left-[5px] top-1.5 w-2.5 h-2.5 rounded-full bg-tactical-redAlert">
-                                </div>
-                                <span class="text-[10px] font-mono text-tactical-redAlert block">22:00 • Alerta Roja
-                                    nocturna</span>
-                                <p class="text-xs text-slate-200 font-semibold">Salida de emergencia para búsqueda de
-                                    desaparecido en zona lagunar de Santa Cruz. <span
-                                        class="text-tactical-redAlert font-bold">Falta linterna personal confiable y
-                                        equipo de señalización coordinado.</span></p>
+                                <div class="absolute -left-[5px] top-1.5 w-2.5 h-2.5 rounded-full bg-tactical-redAlert"></div>
+                                <span class="text-[10px] font-mono text-tactical-redAlert block">22:00 • Alerta Roja nocturna</span>
+                                <p class="text-xs text-slate-200 font-semibold">Salida de emergencia para búsqueda de desaparecido en zona lagunar de Santa Cruz. <span class="text-tactical-redAlert font-bold">Falta linterna personal confiable y equipo de señalización coordinado.</span></p>
                             </div>
                             <div class="relative pl-6">
-                                <div
-                                    class="absolute -left-[5px] top-1.5 w-2.5 h-2.5 rounded-full bg-tactical-greenForest">
-                                </div>
-                                <span class="text-[10px] font-mono text-tactical-greenForest block">00:00 • Lluvia
-                                    Intensa en campo</span>
-                                <p class="text-xs text-slate-400">Mochila convencional se moja por completo afectando
-                                    vendas y medicamentos. El rescatista termina empapado y con suministros
-                                    inutilizables.</p>
+                                <div class="absolute -left-[5px] top-1.5 w-2.5 h-2.5 rounded-full bg-tactical-greenForest"></div>
+                                <span class="text-[10px] font-mono text-tactical-greenForest block">00:00 • Lluvia Intensa en campo</span>
+                                <p class="text-xs text-slate-400">Mochila convencional se moja por completo afectando vendas y medicamentos. El rescatista termina empapado y con suministros inutilizables.</p>
                             </div>
                         </div>
-                        <div
-                            class="mt-6 pt-4 border-t border-slate-800 flex justify-between items-center text-xs text-slate-400">
+                        <div class="mt-6 pt-4 border-t border-slate-800 flex justify-between items-center text-xs text-slate-400">
                             <span>* Datos extraídos del análisis "Un Día del Cliente"</span>
-                            <a href="#canvas" class="text-tactical-yellowAlert hover:underline">Ver solución relacionada
-                                →</a>
+                            <a href="#canvas" class="text-tactical-yellowAlert hover:underline">Ver Solución Relacionada →</a>
                         </div>
                     </div>
                 </div>
@@ -418,141 +314,108 @@
     <section id="producto" class="py-20 bg-tactical-darkBg">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center max-w-3xl mx-auto mb-16">
-                <span
-                    class="text-tactical-greenForest text-xs font-bold uppercase tracking-widest block mb-1">Ingeniería
-                    del Equipo</span>
+                <span class="text-tactical-greenForest text-xs font-bold uppercase tracking-widest block mb-1">Ingeniería del Equipo</span>
                 <h2 class="font-display font-bold text-3xl sm:text-4xl text-white mb-4">
                     ¿Qué Incluye Cada "BAG READY" Estandarizada?
                 </h2>
-                <div
-                    class="h-[3px] w-24 bg-gradient-to-r from-tactical-redAlert to-tactical-yellowAlert mx-auto mb-4 rounded-full">
-                </div>
+                <div class="h-[3px] w-24 bg-gradient-to-r from-tactical-redAlert to-tactical-yellowAlert mx-auto mb-4 rounded-full"></div>
                 <p class="text-slate-300 text-sm sm:text-base leading-relaxed">
-                    Nuestras mochilas combinan almacenamiento modular de alta visibilidad, herramientas de supervivencia
-                    prioritarias y un kit de primeros auxilios diseñado bajo normativas internacionales de clasificación
-                    de emergencias.
+                    Nuestras mochilas combinan almacenamiento modular de alta visibilidad, herramientas de supervivencia prioritarias y un kit de primeros auxilios diseñado bajo normativas internacionales de clasificación de emergencias.
                 </p>
             </div>
 
             <!-- Detailed Grid from Conceptual Card (Page 9) -->
             <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-
+                
                 <!-- Item 1: Botiquín -->
-                <div
-                    class="bg-tactical-cardBg p-6 rounded-2xl border border-slate-800 hover:border-tactical-redAlert/50 transition-all group">
-                    <div
-                        class="w-10 h-10 rounded-xl bg-tactical-redAlert/10 text-tactical-redAlert flex items-center justify-center text-lg font-bold mb-4 group-hover:bg-tactical-redAlert group-hover:text-white transition-all">
+                <div class="bg-tactical-cardBg p-6 rounded-2xl border border-slate-800 hover:border-tactical-redAlert/50 transition-all group">
+                    <div class="w-10 h-10 rounded-xl bg-tactical-redAlert/10 text-tactical-redAlert flex items-center justify-center text-lg font-bold mb-4 group-hover:bg-tactical-redAlert group-hover:text-white transition-all">
                         <i class="fa-solid fa-kit-medical"></i>
                     </div>
-                    <h3 class="font-display font-bold text-base text-white mb-2">Botiquín de primeros auxilios</h3>
+                    <h3 class="font-display font-bold text-base text-white mb-2">Botiquín Integrado de Trauma</h3>
                     <p class="text-slate-400 text-xs leading-relaxed">
-                        Insumos para control de hemorragias, quemaduras severas, gasas esterilizadas y vendaje elástico.
-                        Todo clasificado por orden de respuesta inmediata.
+                        Insumos para control de hemorragias, quemaduras severas, gasas esterilizadas y vendaje elástico. Todo clasificado por orden de respuesta inmediata.
                     </p>
                 </div>
 
                 <!-- Item 2: Cuerda Vaquera -->
-                <div
-                    class="bg-tactical-cardBg p-6 rounded-2xl border border-slate-800 hover:border-tactical-yellowAlert/50 transition-all group">
-                    <div
-                        class="w-10 h-10 rounded-xl bg-tactical-yellowAlert/10 text-tactical-yellowAlert flex items-center justify-center text-lg font-bold mb-4 group-hover:bg-tactical-yellowAlert group-hover:text-black transition-all">
+                <div class="bg-tactical-cardBg p-6 rounded-2xl border border-slate-800 hover:border-tactical-yellowAlert/50 transition-all group">
+                    <div class="w-10 h-10 rounded-xl bg-tactical-yellowAlert/10 text-tactical-yellowAlert flex items-center justify-center text-lg font-bold mb-4 group-hover:bg-tactical-yellowAlert group-hover:text-black transition-all">
                         <i class="fa-solid fa-route"></i>
                     </div>
-                    <h3 class="font-display font-bold text-base text-white mb-2">Cuerda auxiliar de perlón</h3>
+                    <h3 class="font-display font-bold text-base text-white mb-2">Cuerda Vaquera y Ganchos</h3>
                     <p class="text-slate-400 text-xs leading-relaxed">
-                        Cuerda de arrastre y anclaje rápido de alta tensión para maniobras de evacuación o aseguramiento
-                        en descensos escarpados de montaña o barrancos.
+                        Cuerda de arrastre y anclaje rápido de alta tensión para maniobras de evacuación o aseguramiento en descensos escarpados de montaña o barrancos.
                     </p>
                 </div>
 
                 <!-- Item 3: Linterna LED -->
-                <div
-                    class="bg-tactical-cardBg p-6 rounded-2xl border border-slate-800 hover:border-blue-500/50 transition-all group">
-                    <div
-                        class="w-10 h-10 rounded-xl bg-blue-500/10 text-blue-400 flex items-center justify-center text-lg font-bold mb-4 group-hover:bg-blue-500 group-hover:text-white transition-all">
+                <div class="bg-tactical-cardBg p-6 rounded-2xl border border-slate-800 hover:border-blue-500/50 transition-all group">
+                    <div class="w-10 h-10 rounded-xl bg-blue-500/10 text-blue-400 flex items-center justify-center text-lg font-bold mb-4 group-hover:bg-blue-500 group-hover:text-white transition-all">
                         <i class="fa-solid fa-lightbulb"></i>
                     </div>
-                    <h3 class="font-display font-bold text-base text-white mb-2">Linterna LED y señalización reflectante
-                    </h3>
+                    <h3 class="font-display font-bold text-base text-white mb-2">Linterna LED y Señalización</h3>
                     <p class="text-slate-400 text-xs leading-relaxed">
-                        Dispositivo de iluminación de gran alcance (más de 200 metros) y modos SOS para rescates
-                        nocturnos o en condiciones severas de humo.
+                        Dispositivo de iluminación de gran alcance (más de 200 metros) y modos SOS para rescates nocturnos o en condiciones severas de humo.
                     </p>
                 </div>
 
                 <!-- Item 4: Brújula -->
-                <div
-                    class="bg-tactical-cardBg p-6 rounded-2xl border border-slate-800 hover:border-tactical-greenForest/50 transition-all group">
-                    <div
-                        class="w-10 h-10 rounded-xl bg-tactical-greenForest/10 text-tactical-greenForest flex items-center justify-center text-lg font-bold mb-4 group-hover:bg-tactical-greenForest group-hover:text-white transition-all">
+                <div class="bg-tactical-cardBg p-6 rounded-2xl border border-slate-800 hover:border-tactical-greenForest/50 transition-all group">
+                    <div class="w-10 h-10 rounded-xl bg-tactical-greenForest/10 text-tactical-greenForest flex items-center justify-center text-lg font-bold mb-4 group-hover:bg-tactical-greenForest group-hover:text-white transition-all">
                         <i class="fa-solid fa-compass"></i>
                     </div>
-                    <h3 class="font-display font-bold text-base text-white mb-2">Brújula táctica analógica</h3>
+                    <h3 class="font-display font-bold text-base text-white mb-2">Brújula Táctica Analógica</h3>
                     <p class="text-slate-400 text-xs leading-relaxed">
-                        Navegación terrestre infalible. Funciona sin baterías ni señal satelital, ideal para
-                        geolocalización en selvas espesas, parques nacionales y serranías.
+                        Navegación terrestre infalible. Funciona sin baterías ni señal satelital, ideal para geolocalización en selvas espesas, parques nacionales y serranías.
                     </p>
                 </div>
 
                 <!-- Item 5: Sales de Rehidratación -->
-                <div
-                    class="bg-tactical-cardBg p-6 rounded-2xl border border-slate-800 hover:border-purple-500/50 transition-all group">
-                    <div
-                        class="w-10 h-10 rounded-xl bg-purple-500/10 text-purple-400 flex items-center justify-center text-lg font-bold mb-4 group-hover:bg-purple-500 group-hover:text-white transition-all">
+                <div class="bg-tactical-cardBg p-6 rounded-2xl border border-slate-800 hover:border-purple-500/50 transition-all group">
+                    <div class="w-10 h-10 rounded-xl bg-purple-500/10 text-purple-400 flex items-center justify-center text-lg font-bold mb-4 group-hover:bg-purple-500 group-hover:text-white transition-all">
                         <i class="fa-solid fa-droplet"></i>
                     </div>
-                    <h3 class="font-display font-bold text-base text-white mb-2">Sales de rehidratación oral</h3>
+                    <h3 class="font-display font-bold text-base text-white mb-2">Sales de Rehidratación Oral</h3>
                     <p class="text-slate-400 text-xs leading-relaxed">
-                        Esenciales para combatir el golpe de calor severo de los rescatistas combatiendo incendios
-                        forestales en temperaturas que superan los 40°C.
+                        Esenciales para combatir el golpe de calor severo de los rescatistas combatiendo incendios forestales en temperaturas que superan los 40°C.
                     </p>
                 </div>
 
                 <!-- Item 6: Manual y Clasificación Triage -->
-                <div
-                    class="bg-tactical-cardBg p-6 rounded-2xl border border-slate-800 hover:border-pink-500/50 transition-all group">
-                    <div
-                        class="w-10 h-10 rounded-xl bg-pink-500/10 text-pink-400 flex items-center justify-center text-lg font-bold mb-4 group-hover:bg-pink-500 group-hover:text-white transition-all">
+                <div class="bg-tactical-cardBg p-6 rounded-2xl border border-slate-800 hover:border-pink-500/50 transition-all group">
+                    <div class="w-10 h-10 rounded-xl bg-pink-500/10 text-pink-400 flex items-center justify-center text-lg font-bold mb-4 group-hover:bg-pink-500 group-hover:text-white transition-all">
                         <i class="fa-solid fa-book-open"></i>
                     </div>
-                    <h3 class="font-display font-bold text-base text-white mb-2">Manual de instrucción e inventario</h3>
+                    <h3 class="font-display font-bold text-base text-white mb-2">Manual de Acción e Inventario</h3>
                     <p class="text-slate-400 text-xs leading-relaxed">
-                        Protocolo rápido impreso en material impermeable que incluye guía de primeros auxilios y sistema
-                        de clasificación internacional para víctimas.
+                        Protocolo rápido impreso en material impermeable que incluye guía de primeros auxilios y sistema de clasificación internacional para víctimas.
                     </p>
                 </div>
 
             </div>
 
             <!-- Key solution characteristics from "Diseñador de PV" (Page 9 bottom) -->
-            <div
-                class="mt-16 bg-gradient-to-r from-tactical-cardBg to-slate-900 border border-slate-800 rounded-3xl p-8">
+            <div class="mt-16 bg-gradient-to-r from-tactical-cardBg to-slate-900 border border-slate-800 rounded-3xl p-8">
                 <h3 class="font-display font-bold text-lg text-white mb-6 flex items-center gap-2">
-                    <i class="fa-solid fa-square-poll-horizontal text-tactical-yellowAlert"></i> Características
-                    innovadoras de la solución (Diseño de Propuesta de Valor)
+                    <i class="fa-solid fa-square-poll-horizontal text-tactical-yellowAlert"></i> Características Innovadoras de la Solución (Diseño de Propuesta de Valor)
                 </h3>
                 <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
                     <div class="space-y-1">
-                        <span class="text-tactical-yellowAlert font-bold text-sm block">✓ Suministros para 72
-                            Horas</span>
-                        <p class="text-slate-400 text-xs">Raciones hídricas y de supervivencia energética optimizadas
-                            para durar 3 días completos en aislamiento.</p>
+                        <span class="text-tactical-yellowAlert font-bold text-sm block">✓ Suministros para 72 Horas</span>
+                        <p class="text-slate-400 text-xs">Raciones hídricas y de supervivencia energética optimizadas para durar 3 días completos en aislamiento.</p>
                     </div>
                     <div class="space-y-1">
-                        <span class="text-tactical-yellowAlert font-bold text-sm block">✓ Compartimientos por
-                            Colores</span>
-                        <p class="text-slate-400 text-xs">Identificación visual inmediata de áreas de trauma, rescate
-                            mecánico, supervivencia y señalización táctica.</p>
+                        <span class="text-tactical-yellowAlert font-bold text-sm block">✓ Compartimientos por Colores</span>
+                        <p class="text-slate-400 text-xs">Identificación visual inmediata de áreas de trauma, rescate mecánico, supervivencia y señalización táctica.</p>
                     </div>
                     <div class="space-y-1">
                         <span class="text-tactical-yellowAlert font-bold text-sm block">✓ Material Impermeable</span>
-                        <p class="text-slate-400 text-xs">Tejido balístico con recubrimiento hidrofóbico para mantener
-                            el botiquín seco bajo diluvios tropicales.</p>
+                        <p class="text-slate-400 text-xs">Tejido balístico con recubrimiento hidrofóbico para mantener el botiquín seco bajo diluvios tropicales.</p>
                     </div>
                     <div class="space-y-1">
                         <span class="text-tactical-yellowAlert font-bold text-sm block">✓ Ergonomía Adaptable</span>
-                        <p class="text-slate-400 text-xs">Distribución de carga torácica y lumbar diseñada para
-                            caminatas extenuantes en geografías bolivianas.</p>
+                        <p class="text-slate-400 text-xs">Distribución de carga torácica y lumbar diseñada para caminatas extenuantes en geografías bolivianas.</p>
                     </div>
                 </div>
             </div>
@@ -563,101 +426,84 @@
     <section id="destinatarios" class="py-20 bg-tactical-cardBg/30 border-t border-b border-slate-800">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="lg:flex lg:items-center lg:gap-12">
-
+                
                 <!-- Left Details -->
                 <div class="lg:w-1/2 space-y-6">
-                    <span class="text-tactical-yellowAlert text-xs font-bold uppercase tracking-widest block">¿A quiénes
-                        va dirigido?</span>
+                    <span class="text-tactical-yellowAlert text-xs font-bold uppercase tracking-widest block">¿A Quiénes va Dirigido?</span>
                     <h2 class="font-display font-bold text-3xl sm:text-4xl text-white">
-                        La necesidad de un equipo de rescate integral en Bolivia
+                        La Necesidad de un Equipo de Rescate Integral en Bolivia
                     </h2>
                     <p class="text-slate-300 text-base leading-relaxed">
-                        Nuestra solución se enfoca en dotar de autonomía, organización y rapidez a los héroes cotidianos
-                        de nuestro país. El mercado boliviano requiere una herramienta adaptada a sus presupuestos y
-                        realidades operativas:
+                        Nuestra solución se enfoca en dotar de autonomía, organización y rapidez a los héroes cotidianos de nuestro país. El mercado boliviano requiere una herramienta adaptada a sus presupuestos y realidades operativas:
                     </p>
 
                     <div class="space-y-4">
-                        <div
-                            class="flex gap-4 p-4 rounded-xl bg-tactical-darkBg border border-slate-800 hover:border-tactical-greenForest/30 transition-all">
-                            <div
-                                class="w-10 h-10 rounded-lg bg-tactical-redAlert/10 text-tactical-redAlert flex-shrink-0 flex items-center justify-center text-lg">
+                        <div class="flex gap-4 p-4 rounded-xl bg-tactical-darkBg border border-slate-800 hover:border-tactical-greenForest/30 transition-all">
+                            <div class="w-10 h-10 rounded-lg bg-tactical-redAlert/10 text-tactical-redAlert flex-shrink-0 flex items-center justify-center text-lg">
                                 <i class="fa-solid fa-fire-extinguisher"></i>
                             </div>
                             <div>
-                                <h4 class="font-bold text-sm text-white">Bomberos voluntarios y profesionales</h4>
-                                <p class="text-xs text-slate-400 mt-1">Soporte operativo para brigadas comunitarias que
-                                    necesitan una respuesta organizada contra incendios domésticos y forestales de gran
-                                    magnitud.</p>
+                                <h4 class="font-bold text-sm text-white">Bomberos Voluntarios y Profesionales</h4>
+                                <p class="text-xs text-slate-400 mt-1">Soporte operativo para brigadas comunitarias que necesitan una respuesta organizada contra incendios domésticos y forestales de gran magnitud.</p>
                             </div>
                         </div>
 
-                        <div
-                            class="flex gap-4 p-4 rounded-xl bg-tactical-darkBg border border-slate-800 hover:border-tactical-greenForest/30 transition-all">
-                            <div
-                                class="w-10 h-10 rounded-lg bg-tactical-yellowAlert/10 text-tactical-yellowAlert flex-shrink-0 flex items-center justify-center text-lg">
+                        <div class="flex gap-4 p-4 rounded-xl bg-tactical-darkBg border border-slate-800 hover:border-tactical-greenForest/30 transition-all">
+                            <div class="w-10 h-10 rounded-lg bg-tactical-yellowAlert/10 text-tactical-yellowAlert flex-shrink-0 flex items-center justify-center text-lg">
                                 <i class="fa-solid fa-helicopter"></i>
                             </div>
                             <div>
-                                <h4 class="font-bold text-sm text-white">Equipos de rescate y gestión de desastres</h4>
-                                <p class="text-xs text-slate-400 mt-1">Socorristas civiles, militares, personal de
-                                    ambulancias y brigadas de búsqueda y rescate urbano ante emergencias de colapso de
-                                    infraestructuras.</p>
+                                <h4 class="font-bold text-sm text-white">Equipos de Rescate y Gestión de Desastres</h4>
+                                <p class="text-xs text-slate-400 mt-1">Socorristas civiles, militares, personal de ambulancias y brigadas de búsqueda y rescate urbano ante emergencias de colapso de infraestructuras.</p>
                             </div>
                         </div>
 
-
+                        <div class="flex gap-4 p-4 rounded-xl bg-tactical-darkBg border border-slate-800 hover:border-tactical-greenForest/30 transition-all">
+                            <div class="w-10 h-10 rounded-lg bg-tactical-greenForest/10 text-tactical-greenForest flex-shrink-0 flex items-center justify-center text-lg">
+                                <i class="fa-solid fa-person-hiking"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-sm text-white">Excursionistas y Montañistas Bolivianos</h4>
+                                <p class="text-xs text-slate-400 mt-1">Aventureros en senderos de los Yungas, escaladores en el Huayna Potosí o guías turísticos de los parques nacionales que requieren autonomía extrema ante accidentes.</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
                 <!-- Right Graphic: Buyer Persona Archetype from Page 10 -->
                 <div class="lg:w-1/2 mt-12 lg:mt-0">
-                    <div
-                        class="relative bg-gradient-to-tr from-slate-900 to-tactical-cardBg border border-slate-800 rounded-3xl p-6 sm:p-8 shadow-xl">
-                        <div
-                            class="absolute top-4 right-4 bg-tactical-greenForest/20 border border-tactical-greenForest/50 text-tactical-greenForest px-2 py-0.5 rounded text-[9px] font-mono font-bold tracking-widest uppercase">
+                    <div class="relative bg-gradient-to-tr from-slate-900 to-tactical-cardBg border border-slate-800 rounded-3xl p-6 sm:p-8 shadow-xl">
+                        <div class="absolute top-4 right-4 bg-tactical-greenForest/20 border border-tactical-greenForest/50 text-tactical-greenForest px-2 py-0.5 rounded text-[9px] font-mono font-bold tracking-widest uppercase">
                             ARQUETIPO DEL CLIENTE
                         </div>
-
+                        
                         <div class="flex items-center gap-4 mb-6">
-                            <div
-                                class="w-14 h-14 rounded-full bg-tactical-slateGray flex items-center justify-center text-white border border-slate-700">
+                            <div class="w-14 h-14 rounded-full bg-tactical-slateGray flex items-center justify-center text-white border border-slate-700">
                                 <i class="fa-solid fa-user-shield text-2xl text-tactical-yellowAlert"></i>
                             </div>
                             <div>
-                                <h3 class="font-display font-bold text-base text-white">Carlos Cornejo</h3>
-                                <p class="text-xs text-slate-400">Estudiante, trabajador independiente o empleado que
-                                    dedica parte de su tiempo al voluntariado.</p>
+                                <h3 class="font-display font-bold text-base text-white">Yino Cornejo</h3>
+                                <p class="text-xs text-slate-400">Bombero Voluntario, Tapicero y Conductor (34 años)</p>
                             </div>
                         </div>
 
                         <div class="space-y-4 text-xs text-slate-300">
                             <div class="grid grid-cols-2 gap-4">
                                 <div class="bg-tactical-darkBg border border-slate-800 p-3 rounded-xl">
-                                    <span class="text-tactical-yellowAlert font-bold block mb-1">Necesidad
-                                        Crítica</span>
-                                    <p class="text-[11px] text-slate-400">Los bomberos y equipos de rescate suelen ser
-                                        activados de manera repentina y muchas veces deben reunir rápidamente los
-                                        equipos necesarios para una emergencia, perdiendo tiempo valioso y aumentando el
-                                        riesgo de olvidar elementos importantes.</p>
+                                    <span class="text-tactical-yellowAlert font-bold block mb-1">Necesidad Crítica</span>
+                                    <p class="text-[11px] text-slate-400">Contar con una mochila equipada con todos los elementos indispensables listos ante llamadas nocturnas de emergencia.</p>
                                 </div>
                                 <div class="bg-tactical-darkBg border border-slate-800 p-3 rounded-xl">
                                     <span class="text-tactical-yellowAlert font-bold block mb-1">Mensaje Clave</span>
-                                    <p class="text-[11px] text-slate-400">"Salvemos a quienes nos salvan. BAG READY es
-                                        parte de nuestra misión de auxilio."</p>
+                                    <p class="text-[11px] text-slate-400">"Salvemos a quienes nos salvan. BAG READY es parte de nuestra misión de auxilio."</p>
                                 </div>
                             </div>
 
                             <div class="bg-tactical-darkBg border border-slate-800 p-3 rounded-xl">
-                                <span class="text-tactical-yellowAlert font-bold block mb-1">Criterios Psicográficos y
-                                    Desafíos</span>
+                                <span class="text-tactical-yellowAlert font-bold block mb-1">Criterios Psicográficos y Desafíos</span>
                                 <ul class="space-y-1 text-slate-400 text-[11px]">
-                                    <li>• <strong class="text-slate-300">Sereno, resiliente y empático:</strong>
-                                        Mantiene
-                                        la calma en climas adversos pero sufre por la falta de herramientas de su base.
-                                    </li>
-                                    <li>• <strong class="text-slate-300">Climas extremos:</strong> Opera en terrenos
-                                        fangosos o altas montañas donde el equipo convencional falla por humedad.</li>
+                                    <li>• <strong class="text-slate-300">Sereno y Resiliente:</strong> Mantiene la calma en climas adversos pero sufre por la falta de herramientas de su base.</li>
+                                    <li>• <strong class="text-slate-300">Climas Extremos:</strong> Opera en terrenos fangosos o altas montañas donde el equipo convencional falla por humedad.</li>
                                 </ul>
                             </div>
                         </div>
@@ -672,64 +518,50 @@
     <section id="mercado" class="py-20 bg-tactical-darkBg">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center max-w-3xl mx-auto mb-16">
-                <span class="text-tactical-redAlert text-xs font-bold uppercase tracking-widest block mb-1"><i
-                        class="fa-solid fa-chart-line"></i> Escala del proyecto</span>
+                <span class="text-tactical-redAlert text-xs font-bold uppercase tracking-widest block mb-1"><i class="fa-solid fa-chart-line"></i> Escala del Proyecto</span>
                 <h2 class="font-display font-bold text-3xl sm:text-4xl text-white mb-4">
                     Tamaño de Mercado y Viabilidad Económica
                 </h2>
-                <div
-                    class="h-[3px] w-24 bg-gradient-to-r from-tactical-redAlert to-tactical-yellowAlert mx-auto mb-4 rounded-full">
-                </div>
+                <div class="h-[3px] w-24 bg-gradient-to-r from-tactical-redAlert to-tactical-yellowAlert mx-auto mb-4 rounded-full"></div>
                 <p class="text-slate-300 text-sm">
-                    Análisis de mercado realizado bajo el marco de formulación del proyecto de UTEPSA, valorando cada
-                    unidad de BAG READY en <strong class="text-tactical-yellowAlert font-semibold">800 Bs.</strong>
+                    Análisis de mercado realizado bajo el marco de formulación del proyecto de UTEPSA (Market Scan Tool), valorando cada unidad de BAG READY en una tarifa estratégica de <strong class="text-tactical-yellowAlert font-semibold">800 Bs.</strong>
                 </p>
             </div>
 
             <!-- Market Funnel Visualization (TAM, SAM, SOM) based on Pages 7 & 8 -->
             <div class="grid lg:grid-cols-12 gap-8 items-center max-w-5xl mx-auto">
-
+                
                 <!-- Funnel Graphic Left -->
                 <div class="lg:col-span-6 space-y-4">
                     <h3 class="font-display font-bold text-lg text-white mb-4 flex items-center gap-2">
                         <i class="fa-solid fa-filter text-tactical-yellowAlert"></i> Alcance de Mercado (Market Funnel)
                     </h3>
-
+                    
                     <!-- TAM Box -->
-                    <div
-                        class="p-4 bg-tactical-cardBg border-l-4 border-slate-500 rounded-r-xl space-y-1 hover:translate-x-1 transition-transform">
+                    <div class="p-4 bg-tactical-cardBg border-l-4 border-slate-500 rounded-r-xl space-y-1 hover:translate-x-1 transition-transform">
                         <div class="flex justify-between items-center">
                             <span class="font-bold text-sm text-slate-300">TAM (Total Addressable Market)</span>
-                            <span class="text-xs font-mono font-bold text-slate-400">42,000,000 u.</span>
+                            <span class="text-xs font-mono font-bold text-slate-400">42.000.000 u. • @800 Bs.</span>
                         </div>
-                        <p class="text-[11px] text-slate-400">Bomberos y brigadas de rescate a nivel mundial. Valor de
-                            mercado potencial de escala global.</p>
+                        <p class="text-[11px] text-slate-400">Población total global de bomberos y brigadas de rescate (profesionales y voluntarios).</p>
                     </div>
 
                     <!-- SAM Box -->
-                    <div
-                        class="p-4 bg-tactical-cardBg border-l-4 border-tactical-yellowAlert rounded-r-xl space-y-1 hover:translate-x-1 transition-transform">
+                    <div class="p-4 bg-tactical-cardBg border-l-4 border-tactical-yellowAlert rounded-r-xl space-y-1 hover:translate-x-1 transition-transform">
                         <div class="flex justify-between items-center">
-                            <span class="font-bold text-sm text-tactical-yellowAlert">SAM (Serviceable Available
-                                Market)</span>
-                            <span class="text-xs font-mono font-bold text-tactical-yellowAlert">64,000 u. • 76.8M
-                                Bs.</span>
+                            <span class="font-bold text-sm text-tactical-yellowAlert">SAM (Serviceable Available Market)</span>
+                            <span class="text-xs font-mono font-bold text-tactical-yellowAlert">64.000 u. • 51.2M Bs.</span>
                         </div>
-                        <p class="text-[11px] text-slate-400">Bomberos y rescatistas que operan en Bolivia con labores
-                            de primera intervención.</p>
+                        <p class="text-[11px] text-slate-400">Bomberos, rescatistas y voluntarios que operan en Bolivia con labores de primera intervención.</p>
                     </div>
 
                     <!-- SOM Box -->
-                    <div
-                        class="p-4 bg-tactical-cardBg border-l-4 border-tactical-redAlert rounded-r-xl space-y-1 hover:translate-x-1 transition-transform animate-pulse">
+                    <div class="p-4 bg-tactical-cardBg border-l-4 border-tactical-redAlert rounded-r-xl space-y-1 hover:translate-x-1 transition-transform animate-pulse">
                         <div class="flex justify-between items-center">
-                            <span class="font-bold text-sm text-tactical-redAlert">SOM (Serviceable Obtainable
-                                Market)</span>
-                            <span class="text-xs font-mono font-bold text-tactical-redAlert">19,000 u. • 22.8M
-                                Bs.</span>
+                            <span class="font-bold text-sm text-tactical-redAlert">SOM (Serviceable Obtainable Market)</span>
+                            <span class="text-xs font-mono font-bold text-tactical-redAlert">19.000 u. • 15.2M Bs.</span>
                         </div>
-                        <p class="text-[11px] text-slate-400">Bomberos y rescatistas operando activamente en el
-                            Departamento de Santa Cruz.</p>
+                        <p class="text-[11px] text-slate-400">Bomberos y rescatistas operando activamente en situaciones de emergencias en Santa Cruz.</p>
                     </div>
                 </div>
 
@@ -742,40 +574,40 @@
                         <div class="grid grid-cols-3 gap-2 text-center">
                             <div class="p-2.5 bg-tactical-darkBg border border-slate-800 rounded-lg">
                                 <span class="text-[10px] text-slate-400 block uppercase font-mono">Semanal</span>
-                                <span class="text-sm font-bold text-white">2 Unidades</span>
-                            </div>
-                            <div class="p-2.5 bg-tactical-darkBg border border-slate-800 rounded-lg">
-                                <span class="text-[10px] text-slate-400 block uppercase font-mono">Mensual</span>
                                 <span class="text-sm font-bold text-white">8 Unidades</span>
                             </div>
                             <div class="p-2.5 bg-tactical-darkBg border border-slate-800 rounded-lg">
+                                <span class="text-[10px] text-slate-400 block uppercase font-mono">Mensual</span>
+                                <span class="text-sm font-bold text-white">32 Unidades</span>
+                            </div>
+                            <div class="p-2.5 bg-tactical-darkBg border border-slate-800 rounded-lg">
                                 <span class="text-[10px] text-slate-400 block uppercase font-mono">Anual</span>
-                                <span class="text-sm font-bold text-tactical-yellowAlert">32 Unidades</span>
+                                <span class="text-sm font-bold text-tactical-yellowAlert">384 Unidades</span>
                             </div>
                         </div>
-                        <p class="text-[11px] text-slate-400 mt-2">Nivel de ventas inicial básico requerido para
-                            alcanzar el punto de equilibrio operativo de la empresa.</p>
+                        <div class="mt-3 p-3 bg-slate-900/50 rounded-xl border border-slate-800/80 flex justify-between items-center text-xs">
+                            <span class="text-slate-400">Meta Financiera Primer Año:</span>
+                            <span class="font-bold text-tactical-greenForest font-mono">307.200 Bs.</span>
+                        </div>
+                        <p class="text-[11px] text-slate-400 mt-2">Nivel mínimo operativo requerido para cubrir costos. Se estima llegar a un despliegue piloto de 384 bomberos el primer año.</p>
                     </div>
 
                     <div>
                         <h4 class="font-display font-bold text-sm text-white uppercase tracking-wider mb-3">
-                            <i class="fa-solid fa-shield-halved text-tactical-yellowAlert"></i> Matriz de competencia
-                            local
+                            <i class="fa-solid fa-shield-halved text-tactical-yellowAlert"></i> Matriz de Competencia Local (Bolivia)
                         </h4>
                         <div class="space-y-2">
                             <div class="flex justify-between items-center text-xs p-2 bg-tactical-darkBg rounded-lg">
                                 <span class="font-medium text-slate-300">BAG READY</span>
-                                <span class="text-tactical-greenForest font-bold text-[10px] uppercase">Alta Integración
-                                    / Alta Organización</span>
+                                <span class="text-tactical-greenForest font-bold text-[10px] uppercase">Alta Integración / Organización</span>
                             </div>
-                            <div class="flex justify-between items-center text-xs p-2 bg-tactical-darkBg/60 rounded-lg">
-                                <span class="text-slate-400">KPN SAFETY • CONTRUEX</span>
-                                <span class="text-slate-500 text-[10px] uppercase">Venta de EPP / Sin Estandarización
-                                    Modular</span>
+                            <div class="p-2.5 bg-tactical-darkBg/60 rounded-lg text-xs space-y-1">
+                                <span class="font-bold text-[10px] text-slate-400 uppercase tracking-widest block">Competidores Directos:</span>
+                                <p class="text-[11px] text-slate-300">Empresas de EPP (KPN SAFETY, CONTRUEX, ALARMATEC) - Proveedores de equipamiento sin clasificación modular ni estandarizada por colores.</p>
                             </div>
-                            <div class="flex justify-between items-center text-xs p-2 bg-tactical-darkBg/60 rounded-lg">
-                                <span class="text-slate-400">ALARMATEC</span>
-                                <span class="text-slate-500 text-[10px] uppercase">Electrónicos y alarmas</span>
+                            <div class="p-2.5 bg-tactical-darkBg/40 rounded-lg text-xs space-y-1">
+                                <span class="font-bold text-[10px] text-slate-500 uppercase tracking-widest block">Competidores Indirectos:</span>
+                                <p class="text-[11px] text-slate-400">Instituciones que compran herramientas por separado, usuarios que arman kits manuales y tiendas de camping/montañismo.</p>
                             </div>
                         </div>
                     </div>
@@ -789,27 +621,21 @@
     <section id="canvas" class="py-20 bg-tactical-cardBg/60 border-t border-b border-slate-800">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center max-w-3xl mx-auto mb-12">
-                <span
-                    class="text-tactical-yellowAlert text-xs font-bold uppercase tracking-widest block mb-1">Planificación
-                    de negocio</span>
+                <span class="text-tactical-yellowAlert text-xs font-bold uppercase tracking-widest block mb-1">Planificación de Negocio</span>
                 <h2 class="font-display font-bold text-3xl text-white mb-4">
                     Lienzo Lean Canvas - BAG READY
                 </h2>
-                <div
-                    class="h-[3px] w-24 bg-gradient-to-r from-tactical-redAlert to-tactical-yellowAlert mx-auto mb-4 rounded-full">
-                </div>
+                <div class="h-[3px] w-24 bg-gradient-to-r from-tactical-redAlert to-tactical-yellowAlert mx-auto mb-4 rounded-full"></div>
                 <p class="text-slate-300 text-sm">
-                    Este lienzo estratégico describe los cimientos de nuestro emprendimiento. Haz clic en cualquier
-                    cuadrante para interactuar con los datos y personalizar tu modelo de negocios piloto.
+                    Este lienzo estratégico describe los cimientos de nuestro emprendimiento. Haz clic en cualquier cuadrante para interactuar con los datos y personalizar tu modelo de negocios piloto.
                 </p>
             </div>
 
             <!-- Responsive Lean Canvas Grid layout inspired by page 11 document -->
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-4 mt-8">
-
+                
                 <!-- 1. Problema -->
-                <div onclick="openCanvasModal('problema')"
-                    class="lg:col-span-1 bg-tactical-darkBg border border-slate-800 hover:border-tactical-redAlert rounded-xl p-5 cursor-pointer transition-all flex flex-col justify-between group">
+                <div onclick="openCanvasModal('problema')" class="lg:col-span-1 bg-tactical-darkBg border border-slate-800 hover:border-tactical-redAlert rounded-xl p-5 cursor-pointer transition-all flex flex-col justify-between group">
                     <div>
                         <div class="flex items-center justify-between mb-3 text-tactical-redAlert">
                             <span class="text-[10px] font-mono font-bold uppercase tracking-wider">1. Problema</span>
@@ -817,18 +643,14 @@
                         </div>
                         <h4 class="font-bold text-xs text-white mb-2">Desafíos del Cliente</h4>
                         <p id="canvas-problema-summary" class="text-[11px] text-slate-400 line-clamp-5 leading-relaxed">
-                            Los bomberos y equipos de operaciones de rescate carecen de un equipamiento integral para
-                            situaciones de emergencia que requieran una solución rápida y práctica en toda Bolivia.
+                            Los bomberos y equipos de operaciones de rescate carecen de un equipamiento integral para situaciones de emergencia que requieran una solución rápida y práctica en toda Bolivia.
                         </p>
                     </div>
-                    <span
-                        class="text-[10px] text-tactical-yellowAlert font-semibold group-hover:underline mt-4 block">Ampliar
-                        Bloque →</span>
+                    <span class="text-[10px] text-tactical-yellowAlert font-semibold group-hover:underline mt-4 block">Ampliar Bloque →</span>
                 </div>
 
                 <!-- 2. Solución -->
-                <div onclick="openCanvasModal('solucion')"
-                    class="lg:col-span-1 bg-tactical-darkBg border border-slate-800 hover:border-tactical-redAlert rounded-xl p-5 cursor-pointer transition-all flex flex-col justify-between group">
+                <div onclick="openCanvasModal('solucion')" class="lg:col-span-1 bg-tactical-darkBg border border-slate-800 hover:border-tactical-redAlert rounded-xl p-5 cursor-pointer transition-all flex flex-col justify-between group">
                     <div>
                         <div class="flex items-center justify-between mb-3 text-tactical-greenForest">
                             <span class="text-[10px] font-mono font-bold uppercase tracking-wider">2. Solución</span>
@@ -836,84 +658,64 @@
                         </div>
                         <h4 class="font-bold text-xs text-white mb-2">Nuestra Propuesta</h4>
                         <p id="canvas-solucion-summary" class="text-[11px] text-slate-400 line-clamp-5 leading-relaxed">
-                            Mochila de Emergencia pre-armada con suministros básicos de supervivencia, primeros auxilios
-                            e iluminación. Integración ergonómica y modular que facilita el transporte seguro.
+                            Mochila de Emergencia pre-armada con suministros básicos de supervivencia, primeros auxilios e iluminación. Integración ergonómica y modular que facilita el transporte seguro.
                         </p>
                     </div>
-                    <span
-                        class="text-[10px] text-tactical-yellowAlert font-semibold group-hover:underline mt-4 block">Ampliar
-                        Bloque →</span>
+                    <span class="text-[10px] text-tactical-yellowAlert font-semibold group-hover:underline mt-4 block">Ampliar Bloque →</span>
                 </div>
 
                 <!-- 3. Propuesta de Valor -->
-                <div onclick="openCanvasModal('propuesta')"
-                    class="lg:col-span-1 bg-tactical-darkBg border border-slate-800 hover:border-tactical-redAlert rounded-xl p-5 cursor-pointer transition-all flex flex-col justify-between group">
+                <div onclick="openCanvasModal('propuesta')" class="lg:col-span-1 bg-tactical-darkBg border border-slate-800 hover:border-tactical-redAlert rounded-xl p-5 cursor-pointer transition-all flex flex-col justify-between group">
                     <div>
                         <div class="flex items-center justify-between mb-3 text-tactical-yellowAlert">
-                            <span class="text-[10px] font-mono font-bold uppercase tracking-wider">3. Propuesta de
-                                Valor</span>
+                            <span class="text-[10px] font-mono font-bold uppercase tracking-wider">3. Propuesta de Valor</span>
                             <i class="fa-solid fa-gem text-base"></i>
                         </div>
                         <h4 class="font-bold text-xs text-white mb-2">Valor Único</h4>
-                        <p id="canvas-propuesta-summary"
-                            class="text-[11px] text-slate-300 line-clamp-5 leading-relaxed">
-                            Bag Ready es la mochila de rescate adaptada a Bolivia que mejora la rapidez, organización y
-                            seguridad de los operarios ante incidentes de alta complejidad.
+                        <p id="canvas-propuesta-summary" class="text-[11px] text-slate-300 line-clamp-5 leading-relaxed">
+                            Bag Ready es la mochila de rescate adaptada a Bolivia que mejora la rapidez, organización y seguridad de los operarios ante incidentes de alta complejidad.
                         </p>
                     </div>
-                    <span
-                        class="text-[10px] text-tactical-yellowAlert font-semibold group-hover:underline mt-4 block">Ampliar
-                        Bloque →</span>
+                    <span class="text-[10px] text-tactical-yellowAlert font-semibold group-hover:underline mt-4 block">Ampliar Bloque →</span>
                 </div>
 
                 <!-- 4. Ventaja Competitiva -->
-                <div onclick="openCanvasModal('ventaja')"
-                    class="lg:col-span-1 bg-tactical-darkBg border border-slate-800 hover:border-tactical-redAlert rounded-xl p-5 cursor-pointer transition-all flex flex-col justify-between group">
+                <div onclick="openCanvasModal('ventaja')" class="lg:col-span-1 bg-tactical-darkBg border border-slate-800 hover:border-tactical-redAlert rounded-xl p-5 cursor-pointer transition-all flex flex-col justify-between group">
                     <div>
                         <div class="flex items-center justify-between mb-3 text-pink-400">
-                            <span class="text-[10px] font-mono font-bold uppercase tracking-wider">4. Ventaja
-                                Competitiva</span>
+                            <span class="text-[10px] font-mono font-bold uppercase tracking-wider">4. Ventaja Competitiva</span>
                             <i class="fa-solid fa-crown text-base"></i>
                         </div>
                         <h4 class="font-bold text-xs text-white mb-2">Diferenciación</h4>
                         <p id="canvas-ventaja-summary" class="text-[11px] text-slate-400 line-clamp-5 leading-relaxed">
-                            Incorporación de un diseño modular con acceso rápido al equipo preparado para 72 horas
-                            continuas, sistema de clasificación de víctimas integrado y adaptabilidad climática extrema.
+                            Incorporación de un diseño modular con acceso rápido al equipo preparado para 72 horas continuas, sistema de clasificación de víctimas integrado y adaptabilidad climática extrema.
                         </p>
                     </div>
-                    <span
-                        class="text-[10px] text-tactical-yellowAlert font-semibold group-hover:underline mt-4 block">Ampliar
-                        Bloque →</span>
+                    <span class="text-[10px] text-tactical-yellowAlert font-semibold group-hover:underline mt-4 block">Ampliar Bloque →</span>
                 </div>
 
                 <!-- 5. Segmento Cliente -->
-                <div onclick="openCanvasModal('segmento')"
-                    class="lg:col-span-1 bg-tactical-darkBg border border-slate-800 hover:border-tactical-redAlert rounded-xl p-5 cursor-pointer transition-all flex flex-col justify-between group">
+                <div onclick="openCanvasModal('segmento')" class="lg:col-span-1 bg-tactical-darkBg border border-slate-800 hover:border-tactical-redAlert rounded-xl p-5 cursor-pointer transition-all flex flex-col justify-between group">
                     <div>
                         <div class="flex items-center justify-between mb-3 text-blue-400">
-                            <span class="text-[10px] font-mono font-bold uppercase tracking-wider">5. Segmento
-                                Cliente</span>
+                            <span class="text-[10px] font-mono font-bold uppercase tracking-wider">5. Segmento Cliente</span>
                             <i class="fa-solid fa-users text-base"></i>
                         </div>
                         <h4 class="font-bold text-xs text-white mb-2">Destinatarios</h4>
                         <p id="canvas-segmento-summary" class="text-[11px] text-slate-400 line-clamp-5 leading-relaxed">
-                            Bomberos de voluntarios y de profesión, personal táctico de rescate que necesiten
-                            equipamiento completo de contingencia.
+                            Bomberos de profesión, voluntarios civiles, personal táctico militar de rescate y montañistas excursionistas que necesiten equipamiento completo de contingencia.
                         </p>
                     </div>
-                    <span
-                        class="text-[10px] text-tactical-yellowAlert font-semibold group-hover:underline mt-4 block">Ampliar
-                        Bloque →</span>
+                    <span class="text-[10px] text-tactical-yellowAlert font-semibold group-hover:underline mt-4 block">Ampliar Bloque →</span>
                 </div>
 
             </div>
 
             <!-- Lower Row: Channels, Metrics, Costs & Revenues -->
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mt-4">
-
+                
                 <!-- 6. Canales -->
-                <div onclick="openCanvasModal('canales')"
-                    class="bg-tactical-darkBg border border-slate-800 hover:border-tactical-redAlert rounded-xl p-5 cursor-pointer transition-all flex flex-col justify-between group">
+                <div onclick="openCanvasModal('canales')" class="bg-tactical-darkBg border border-slate-800 hover:border-tactical-redAlert rounded-xl p-5 cursor-pointer transition-all flex flex-col justify-between group">
                     <div>
                         <div class="flex items-center justify-between mb-2 text-indigo-400">
                             <span class="text-[10px] font-mono font-bold uppercase tracking-wider">6. Canales</span>
@@ -921,73 +723,55 @@
                         </div>
                         <h4 class="font-bold text-xs text-white mb-1">¿Cómo llegamos?</h4>
                         <p id="canvas-canales-summary" class="text-[11px] text-slate-400 line-clamp-3">
-                            Venta directa a bomberos, rescatistas, instituciones de emergencia (B2C), comercio electrónico
-                            en línea.
+                            Venta directa a instituciones de emergencia (B2G/B2B), tienda física, comercio electrónico en línea y campañas orgánicas en redes sociales.
                         </p>
                     </div>
-                    <span
-                        class="text-[10px] text-tactical-yellowAlert font-semibold group-hover:underline mt-2 block">Ampliar
-                        →</span>
+                    <span class="text-[10px] text-tactical-yellowAlert font-semibold group-hover:underline mt-2 block">Ampliar →</span>
                 </div>
 
                 <!-- 7. Métricas Clave -->
-                <div onclick="openCanvasModal('metricas')"
-                    class="bg-tactical-darkBg border border-slate-800 hover:border-tactical-redAlert rounded-xl p-5 cursor-pointer transition-all flex flex-col justify-between group">
+                <div onclick="openCanvasModal('metricas')" class="bg-tactical-darkBg border border-slate-800 hover:border-tactical-redAlert rounded-xl p-5 cursor-pointer transition-all flex flex-col justify-between group">
                     <div>
                         <div class="flex items-center justify-between mb-2 text-teal-400">
-                            <span class="text-[10px] font-mono font-bold uppercase tracking-wider">7. Métricas
-                                Clave</span>
+                            <span class="text-[10px] font-mono font-bold uppercase tracking-wider">7. Métricas Clave</span>
                             <i class="fa-solid fa-gauge-high text-base"></i>
                         </div>
                         <h4 class="font-bold text-xs text-white mb-1">Indicadores de Éxito</h4>
                         <p id="canvas-metricas-summary" class="text-[11px] text-slate-400 line-clamp-3">
-                            Tasa de adopción en estaciones de bomberos, margen bruto porcentual por mochila vendida, y
-                            KPI de unidades vendidas por lote institucional.
+                            Tasa de adopción en estaciones de bomberos, margen bruto porcentual por mochila vendida, y KPI de unidades vendidas por lote institucional.
                         </p>
                     </div>
-                    <span
-                        class="text-[10px] text-tactical-yellowAlert font-semibold group-hover:underline mt-2 block">Ampliar
-                        →</span>
+                    <span class="text-[10px] text-tactical-yellowAlert font-semibold group-hover:underline mt-2 block">Ampliar →</span>
                 </div>
 
                 <!-- 8. Estructura de Costos -->
-                <div onclick="openCanvasModal('costos')"
-                    class="bg-tactical-darkBg border border-slate-800 hover:border-tactical-redAlert rounded-xl p-5 cursor-pointer transition-all flex flex-col justify-between group">
+                <div onclick="openCanvasModal('costos')" class="bg-tactical-darkBg border border-slate-800 hover:border-tactical-redAlert rounded-xl p-5 cursor-pointer transition-all flex flex-col justify-between group">
                     <div>
                         <div class="flex items-center justify-between mb-2 text-amber-600">
-                            <span class="text-[10px] font-mono font-bold uppercase tracking-wider">8. Estructura
-                                Costos</span>
+                            <span class="text-[10px] font-mono font-bold uppercase tracking-wider">8. Estructura Costos</span>
                             <i class="fa-solid fa-receipt text-base"></i>
                         </div>
                         <h4 class="font-bold text-xs text-white mb-1">Egresos Principales</h4>
                         <p id="canvas-costos-summary" class="text-[11px] text-slate-400 line-clamp-3">
-                            Manufactura y ensamble, adquisición de componentes internos (botiquín, insumos de
-                            supervivencia, electrónicos), alquiler de taller y distribución.
+                            Manufactura y ensamble, adquisición de componentes internos (botiquín, insumos de supervivencia, electrónicos), alquiler de taller y distribución.
                         </p>
                     </div>
-                    <span
-                        class="text-[10px] text-tactical-yellowAlert font-semibold group-hover:underline mt-2 block">Ampliar
-                        →</span>
+                    <span class="text-[10px] text-tactical-yellowAlert font-semibold group-hover:underline mt-2 block">Ampliar →</span>
                 </div>
 
                 <!-- 9. Flujo de Ingresos -->
-                <div onclick="openCanvasModal('ingresos')"
-                    class="bg-tactical-darkBg border border-slate-800 hover:border-tactical-redAlert rounded-xl p-5 cursor-pointer transition-all flex flex-col justify-between group">
+                <div onclick="openCanvasModal('ingresos')" class="bg-tactical-darkBg border border-slate-800 hover:border-tactical-redAlert rounded-xl p-5 cursor-pointer transition-all flex flex-col justify-between group">
                     <div>
                         <div class="flex items-center justify-between mb-2 text-emerald-500">
-                            <span class="text-[10px] font-mono font-bold uppercase tracking-wider">9. Fuentes de
-                                Ingreso</span>
+                            <span class="text-[10px] font-mono font-bold uppercase tracking-wider">9. Fuentes de Ingreso</span>
                             <i class="fa-solid fa-money-bill-wave text-base"></i>
                         </div>
                         <h4 class="font-bold text-xs text-white mb-1">Modelos Monetarios</h4>
                         <p id="canvas-ingresos-summary" class="text-[11px] text-slate-400 line-clamp-3">
-                            Venta directa de la mochila integral Bag Ready (800 Bs.) y comercialización paralela de
-                            accesorios modulares de supervivencia adicionales.
+                            Venta directa de la mochila integral Bag Ready (1,200 Bs.) y comercialización paralela de accesorios modulares de supervivencia adicionales.
                         </p>
                     </div>
-                    <span
-                        class="text-[10px] text-tactical-yellowAlert font-semibold group-hover:underline mt-2 block">Ampliar
-                        →</span>
+                    <span class="text-[10px] text-tactical-yellowAlert font-semibold group-hover:underline mt-2 block">Ampliar →</span>
                 </div>
 
             </div>
@@ -995,19 +779,15 @@
     </section>
 
     <!-- INTERACTIVE CANVAS EDIT MODAL -->
-    <div id="canvas-modal"
-        class="fixed inset-0 bg-tactical-darkBg/90 backdrop-blur-sm z-50 flex items-center justify-center p-4 hidden">
-        <div
-            class="bg-tactical-cardBg border border-slate-800 w-full max-w-2xl rounded-2xl p-6 sm:p-8 shadow-2xl space-y-4">
+    <div id="canvas-modal" class="fixed inset-0 bg-tactical-darkBg/90 backdrop-blur-sm z-50 flex items-center justify-center p-4 hidden">
+        <div class="bg-tactical-cardBg border border-slate-800 w-full max-w-2xl rounded-2xl p-6 sm:p-8 shadow-2xl space-y-4">
             <div class="flex items-center justify-between border-b border-slate-800 pb-4">
                 <div class="flex items-center gap-3">
-                    <span id="canvas-modal-icon"
-                        class="w-10 h-10 rounded-xl bg-tactical-redAlert/20 text-tactical-redAlert flex items-center justify-center text-lg">
+                    <span id="canvas-modal-icon" class="w-10 h-10 rounded-xl bg-tactical-redAlert/20 text-tactical-redAlert flex items-center justify-center text-lg">
                         <i class="fa-solid fa-box"></i>
                     </span>
                     <div>
-                        <span id="canvas-modal-tag"
-                            class="text-[10px] text-tactical-yellowAlert font-mono font-bold uppercase tracking-widest block"></span>
+                        <span id="canvas-modal-tag" class="text-[10px] text-tactical-yellowAlert font-mono font-bold uppercase tracking-widest block"></span>
                         <h3 id="canvas-modal-title" class="font-display font-bold text-xl text-white"></h3>
                     </div>
                 </div>
@@ -1017,11 +797,8 @@
             </div>
 
             <div>
-                <label for="canvas-modal-textarea"
-                    class="block text-xs font-semibold text-slate-300 mb-2 uppercase tracking-wide">Información
-                    Expandida (Puedes editar este bloque):</label>
-                <textarea id="canvas-modal-textarea"
-                    class="w-full h-44 bg-tactical-darkBg border border-slate-800 rounded-xl p-4 text-slate-200 text-sm focus:outline-none focus:border-tactical-redAlert focus:ring-1 focus:ring-tactical-redAlert font-sans resize-none"></textarea>
+                <label for="canvas-modal-textarea" class="block text-xs font-semibold text-slate-300 mb-2 uppercase tracking-wide">Información Expandida (Puedes editar este bloque):</label>
+                <textarea id="canvas-modal-textarea" class="w-full h-44 bg-tactical-darkBg border border-slate-800 rounded-xl p-4 text-slate-200 text-sm focus:outline-none focus:border-tactical-redAlert focus:ring-1 focus:ring-tactical-redAlert font-sans resize-none"></textarea>
             </div>
 
             <div class="flex justify-between items-center pt-2">
@@ -1029,12 +806,10 @@
                     Restablecer Contenido
                 </button>
                 <div class="flex gap-3">
-                    <button onclick="closeCanvasModal()"
-                        class="bg-slate-800 hover:bg-slate-700 text-slate-300 text-sm font-semibold px-4 py-2 rounded-lg">
+                    <button onclick="closeCanvasModal()" class="bg-slate-800 hover:bg-slate-700 text-slate-300 text-sm font-semibold px-4 py-2 rounded-lg">
                         Cancelar
                     </button>
-                    <button onclick="saveCanvasChanges()"
-                        class="bg-tactical-redAlert hover:bg-tactical-redHover text-white text-sm font-bold px-5 py-2 rounded-lg shadow-lg">
+                    <button onclick="saveCanvasChanges()" class="bg-tactical-redAlert hover:bg-tactical-redHover text-white text-sm font-bold px-5 py-2 rounded-lg shadow-lg">
                         Guardar Cambios
                     </button>
                 </div>
@@ -1049,60 +824,45 @@
                 <h2 class="font-display font-bold text-3xl text-white mb-4">
                     Simulador de Suministros y Cotización de Flotas
                 </h2>
-                <div
-                    class="h-[3px] w-24 bg-gradient-to-r from-tactical-redAlert to-tactical-yellowAlert mx-auto mb-4 rounded-full">
-                </div>
+                <div class="h-[3px] w-24 bg-gradient-to-r from-tactical-redAlert to-tactical-yellowAlert mx-auto mb-4 rounded-full"></div>
                 <p class="text-slate-300 text-sm">
-                    Estima los costos de adquisición piloto para equipar estaciones de bomberos, brigadas industriales o
-                    guardaparques en Bolivia.
+                    Estima los costos de adquisición piloto para equipar estaciones de bomberos, brigadas industriales o guardaparques en Bolivia.
                 </p>
             </div>
 
-            <div
-                class="grid md:grid-cols-12 gap-8 max-w-5xl mx-auto bg-tactical-cardBg border border-slate-800 p-6 sm:p-8 rounded-3xl">
-
+            <div class="grid md:grid-cols-12 gap-8 max-w-5xl mx-auto bg-tactical-cardBg border border-slate-800 p-6 sm:p-8 rounded-3xl">
+                
                 <!-- Inputs Column -->
                 <div class="md:col-span-7 space-y-6">
                     <h3 class="font-display font-bold text-lg text-white flex items-center gap-2">
                         <i class="fa-solid fa-sliders text-tactical-redAlert"></i> Parámetros del Pedido
                     </h3>
-
+                    
                     <div>
-                        <label for="sim-quantity"
-                            class="block text-xs font-semibold uppercase text-slate-400 tracking-wider mb-2">
+                        <label for="sim-quantity" class="block text-xs font-semibold uppercase text-slate-400 tracking-wider mb-2">
                             Cantidad de personal activo a equipar (Mochilas BAG READY):
                         </label>
                         <div class="flex items-center gap-4">
-                            <input type="range" id="sim-quantity" min="1" max="100" value="12"
-                                class="w-full accent-tactical-redAlert bg-tactical-darkBg h-2 rounded-lg"
-                                oninput="updateSimulation()">
-                            <span id="sim-quantity-display"
-                                class="w-16 text-center text-lg font-bold font-display text-white bg-slate-800 px-2 py-1 rounded-lg">12</span>
+                            <input type="range" id="sim-quantity" min="1" max="100" value="12" class="w-full accent-tactical-redAlert bg-tactical-darkBg h-2 rounded-lg" oninput="updateSimulation()">
+                            <span id="sim-quantity-display" class="w-16 text-center text-lg font-bold font-display text-white bg-slate-800 px-2 py-1 rounded-lg">12</span>
                         </div>
                     </div>
 
                     <div>
-                        <label class="block text-xs font-semibold uppercase text-slate-400 tracking-wider mb-2">Entorno
-                            Geográfico de Operación:</label>
+                        <label class="block text-xs font-semibold uppercase text-slate-400 tracking-wider mb-2">Entorno Geográfico de Operación:</label>
                         <div class="grid grid-cols-3 gap-3">
-                            <label
-                                class="bg-tactical-darkBg border-2 border-slate-800 hover:border-tactical-redAlert rounded-xl p-3 flex flex-col items-center justify-center text-center cursor-pointer transition-all">
-                                <input type="radio" name="sim-geography" value="forestal" class="hidden" checked
-                                    onchange="updateSimulation()">
+                            <label class="bg-tactical-darkBg border-2 border-slate-800 hover:border-tactical-redAlert rounded-xl p-3 flex flex-col items-center justify-center text-center cursor-pointer transition-all">
+                                <input type="radio" name="sim-geography" value="forestal" class="hidden" checked onchange="updateSimulation()">
                                 <i class="fa-solid fa-fire text-lg text-tactical-redAlert mb-1"></i>
                                 <span class="text-[10px] font-bold text-slate-300">Forestal (Llanos)</span>
                             </label>
-                            <label
-                                class="bg-tactical-darkBg border-2 border-slate-800 hover:border-tactical-yellowAlert rounded-xl p-3 flex flex-col items-center justify-center text-center cursor-pointer transition-all">
-                                <input type="radio" name="sim-geography" value="montana" class="hidden"
-                                    onchange="updateSimulation()">
+                            <label class="bg-tactical-darkBg border-2 border-slate-800 hover:border-tactical-yellowAlert rounded-xl p-3 flex flex-col items-center justify-center text-center cursor-pointer transition-all">
+                                <input type="radio" name="sim-geography" value="montana" class="hidden" onchange="updateSimulation()">
                                 <i class="fa-solid fa-mountain text-lg text-tactical-yellowAlert mb-1"></i>
                                 <span class="text-[10px] font-bold text-slate-300">Montaña (Andes)</span>
                             </label>
-                            <label
-                                class="bg-tactical-darkBg border-2 border-slate-800 hover:border-tactical-greenForest rounded-xl p-3 flex flex-col items-center justify-center text-center cursor-pointer transition-all">
-                                <input type="radio" name="sim-geography" value="urbano" class="hidden"
-                                    onchange="updateSimulation()">
+                            <label class="bg-tactical-darkBg border-2 border-slate-800 hover:border-tactical-greenForest rounded-xl p-3 flex flex-col items-center justify-center text-center cursor-pointer transition-all">
+                                <input type="radio" name="sim-geography" value="urbano" class="hidden" onchange="updateSimulation()">
                                 <i class="fa-solid fa-city text-lg text-tactical-greenForest mb-1"></i>
                                 <span class="text-[10px] font-bold text-slate-300">Estructuras</span>
                             </label>
@@ -1110,45 +870,34 @@
                     </div>
 
                     <div class="space-y-3 pt-2">
-                        <label class="block text-xs font-semibold uppercase text-slate-400 tracking-wider">Accesorios
-                            Adicionales (Par de la mochila):</label>
+                        <label class="block text-xs font-semibold uppercase text-slate-400 tracking-wider">Accesorios Adicionales (Par de la mochila):</label>
                         <div class="flex items-start gap-3">
-                            <input type="checkbox" id="sim-water-kit" class="mt-1 accent-tactical-redAlert" checked
-                                onchange="updateSimulation()">
+                            <input type="checkbox" id="sim-water-kit" class="mt-1 accent-tactical-redAlert" checked onchange="updateSimulation()">
                             <div>
-                                <label for="sim-water-kit" class="text-xs font-semibold text-white">Filtro de agua e
-                                    Hidratación extra (+80 Bs / unidad)</label>
-                                <p class="text-[11px] text-slate-400">Purificación instantánea para 72 horas adicionales
-                                    en misiones de aislamiento.</p>
+                                <label for="sim-water-kit" class="text-xs font-semibold text-white">Filtro de agua e Hidratación extra (+80 Bs / unidad)</label>
+                                <p class="text-[11px] text-slate-400">Purificación instantánea para 72 horas adicionales en misiones de aislamiento.</p>
                             </div>
                         </div>
                         <div class="flex items-start gap-3">
-                            <input type="checkbox" id="sim-triage-tag" class="mt-1 accent-tactical-redAlert" checked
-                                onchange="updateSimulation()">
+                            <input type="checkbox" id="sim-triage-tag" class="mt-1 accent-tactical-redAlert" checked onchange="updateSimulation()">
                             <div>
-                                <label for="sim-triage-tag" class="text-xs font-semibold text-white">Tarjetas Triage y
-                                    conteo rápido (+30 Bs / unidad)</label>
-                                <p class="text-[11px] text-slate-400">Sistema estándar para identificación de
-                                    prioridades médicas ante desastres.</p>
+                                <label for="sim-triage-tag" class="text-xs font-semibold text-white">Tarjetas Triage y conteo rápido (+30 Bs / unidad)</label>
+                                <p class="text-[11px] text-slate-400">Sistema estándar para identificación de prioridades médicas ante desastres.</p>
                             </div>
                         </div>
                     </div>
                 </div>
 
                 <!-- Simulation Output Column -->
-                <div
-                    class="md:col-span-5 flex flex-col justify-between bg-tactical-darkBg border border-slate-800 rounded-2xl p-6">
+                <div class="md:col-span-5 flex flex-col justify-between bg-tactical-darkBg border border-slate-800 rounded-2xl p-6">
                     <div>
-                        <span
-                            class="text-[10px] font-bold text-tactical-yellowAlert uppercase tracking-widest block mb-1">Resultado
-                            de simulación</span>
-                        <h4 class="font-display font-bold text-lg text-white mb-6">Cotización estimada</h4>
-
+                        <span class="text-[10px] font-bold text-tactical-yellowAlert uppercase tracking-widest block mb-1">Resultado de Simulación</span>
+                        <h4 class="font-display font-bold text-lg text-white mb-6">Cotización Estimada</h4>
+                        
                         <div class="space-y-4 border-b border-slate-800 pb-6">
                             <div class="flex justify-between text-xs">
-                                <span class="text-slate-400">BAG READY Base (<span id="sim-count-label">12</span>
-                                    u.):</span>
-                                <span id="sim-base-price" class="font-semibold text-white">9.600 Bs.</span>
+                                <span class="text-slate-400">BAG READY Base (<span id="sim-count-label">12</span> u.):</span>
+                                <span id="sim-base-price" class="font-semibold text-white">14,400 Bs.</span>
                             </div>
                             <div class="flex justify-between text-xs">
                                 <span class="text-slate-400">Filtros de agua:</span>
@@ -1159,8 +908,7 @@
                                 <span id="sim-triage-price" class="font-semibold text-white">360 Bs.</span>
                             </div>
                             <div class="flex justify-between text-xs">
-                                <span class="text-slate-400">Adicional por Entorno (<span id="sim-geo-label"
-                                        class="text-tactical-yellowAlert">Forestal</span>):</span>
+                                <span class="text-slate-400">Adicional por Entorno (<span id="sim-geo-label" class="text-tactical-yellowAlert">Forestal</span>):</span>
                                 <span id="sim-geo-price" class="font-semibold text-white">0 Bs.</span>
                             </div>
                         </div>
@@ -1169,16 +917,12 @@
                     <div class="pt-6">
                         <div class="flex justify-between items-end mb-6">
                             <div>
-                                <span class="text-[10px] text-slate-400 font-semibold block uppercase">Precio Total
-                                    Final</span>
-                                <span class="text-[9px] text-tactical-greenForest block font-mono">Descuento de lote
-                                    aplicado</span>
+                                <span class="text-[10px] text-slate-400 font-semibold block uppercase">Precio Total Final</span>
+                                <span class="text-[9px] text-tactical-greenForest block font-mono">Descuento de lote aplicado</span>
                             </div>
-                            <span id="sim-total-price" class="font-display font-extrabold text-2xl text-white">10.920
-                                Bs.</span>
+                            <span id="sim-total-price" class="font-display font-extrabold text-2xl text-white">15,720 Bs.</span>
                         </div>
-                        <button onclick="handleSimulatorBooking()"
-                            class="w-full text-center bg-tactical-redAlert hover:bg-tactical-redHover text-white py-3 rounded-xl text-xs font-bold transition-all shadow-lg uppercase tracking-wider">
+                        <button onclick="handleSimulatorBooking()" class="w-full text-center bg-tactical-redAlert hover:bg-tactical-redHover text-white py-3 rounded-xl text-xs font-bold transition-all shadow-lg uppercase tracking-wider">
                             Solicitar Adopción Piloto
                         </button>
                     </div>
@@ -1190,41 +934,30 @@
     <!-- UTEPSA ACADEMIC BOARD SECTION (Page 1 info) -->
     <section class="py-16 bg-slate-950 border-t border-slate-900">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div
-                class="bg-gradient-to-r from-tactical-cardBg to-slate-900 border border-slate-800 rounded-3xl p-6 sm:p-10">
+            <div class="bg-gradient-to-r from-tactical-cardBg to-slate-900 border border-slate-800 rounded-3xl p-6 sm:p-10">
                 <div class="grid md:grid-cols-12 gap-8 items-center">
-
-                    <div
-                        class="md:col-span-4 flex flex-col items-center justify-center text-center border-b md:border-b-0 md:border-r border-slate-800 pb-6 md:pb-0 md:pr-8">
+                    
+                    <div class="md:col-span-4 flex flex-col items-center justify-center text-center border-b md:border-b-0 md:border-r border-slate-800 pb-6 md:pb-0 md:pr-8">
                         <!-- UTEPSA Logo Mockup Concept -->
-                        <div
-                            class="w-20 h-20 rounded-full bg-gradient-to-tr from-red-600 to-indigo-900 flex items-center justify-center text-white font-bold text-3xl shadow-xl border border-slate-600 mb-4 animate-spin-slow">
+                        <div class="w-20 h-20 rounded-full bg-gradient-to-tr from-red-600 to-indigo-900 flex items-center justify-center text-white font-bold text-3xl shadow-xl border border-slate-600 mb-4 animate-spin-slow">
                             U
                         </div>
                         <span class="font-display font-bold text-lg text-white uppercase tracking-wider">UTEPSA</span>
-                        <span class="text-[10px] text-slate-400 uppercase tracking-widest block">Universidad
-                            Tecnológica</span>
+                        <span class="text-[10px] text-slate-400 uppercase tracking-widest block">Universidad Tecnológica</span>
                         <span class="text-[9px] text-slate-500 font-medium block">Privada de Santa Cruz</span>
                     </div>
 
                     <div class="md:col-span-8 space-y-4">
                         <div class="flex flex-wrap gap-2">
-                            <span
-                                class="bg-tactical-redAlert/10 text-tactical-redAlert text-[9px] font-mono px-2 py-0.5 rounded uppercase font-semibold">Diseño
-                                de Proyecto</span>
-                            <span
-                                class="bg-tactical-yellowAlert/10 text-tactical-yellowAlert text-[9px] font-mono px-2 py-0.5 rounded uppercase font-semibold">Módulo
-                                5</span>
-                            <span
-                                class="bg-tactical-greenForest/10 text-tactical-greenForest text-[9px] font-mono px-2 py-0.5 rounded uppercase font-semibold">Junio,
-                                2026</span>
+                            <span class="bg-tactical-redAlert/10 text-tactical-redAlert text-[9px] font-mono px-2 py-0.5 rounded uppercase font-semibold">Diseño de Proyecto</span>
+                            <span class="bg-tactical-yellowAlert/10 text-tactical-yellowAlert text-[9px] font-mono px-2 py-0.5 rounded uppercase font-semibold">Módulo 5</span>
+                            <span class="bg-tactical-greenForest/10 text-tactical-greenForest text-[9px] font-mono px-2 py-0.5 rounded uppercase font-semibold">Junio, 2026</span>
                         </div>
                         <h3 class="font-display font-bold text-xl text-white">Equipo de Formulación e Investigación</h3>
-
+                        
                         <div class="grid sm:grid-cols-2 gap-4 pt-2 text-xs">
                             <div class="space-y-1">
-                                <span class="text-slate-400 block uppercase tracking-widest text-[9px]">Estudiantes
-                                    Desarrolladores:</span>
+                                <span class="text-slate-400 block uppercase tracking-widest text-[9px]">Estudiantes Desarrolladores:</span>
                                 <ul class="space-y-1 text-slate-200 font-medium">
                                     <li>• Gallardo Melgar Andres</li>
                                     <li>• Vargas Nuñez Natalie Georgina</li>
@@ -1233,12 +966,9 @@
                                 </ul>
                             </div>
                             <div class="space-y-1">
-                                <span class="text-slate-400 block uppercase tracking-widest text-[9px]">Tutor
-                                    Docente:</span>
-                                <span class="text-tactical-yellowAlert font-semibold block">Pablo German Tavera
-                                    Cespedes</span>
-                                <span class="text-slate-500 text-[10px] block">Cátedra de Emprendimiento Tecnológico e
-                                    Innovación</span>
+                                <span class="text-slate-400 block uppercase tracking-widest text-[9px]">Tutor Docente:</span>
+                                <span class="text-tactical-yellowAlert font-semibold block">Pablo German Tavera Cespedes</span>
+                                <span class="text-slate-500 text-[10px] block">Cátedra de Emprendimiento Tecnológico e Innovación</span>
                             </div>
                         </div>
                     </div>
@@ -1252,37 +982,31 @@
     <footer class="bg-tactical-darkBg border-t border-slate-800/80 py-16 relative">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center sm:text-left">
             <div class="grid md:grid-cols-4 gap-8">
-
+                
                 <div class="space-y-4">
                     <div class="flex items-center justify-center sm:justify-start gap-2">
-                        <div
-                            class="w-8 h-8 rounded-lg bg-tactical-redAlert flex items-center justify-center text-white font-bold text-sm">
+                        <div class="w-8 h-8 rounded-lg bg-tactical-redAlert flex items-center justify-center text-white font-bold text-sm">
                             <i class="fa-solid fa-box-tissue"></i>
                         </div>
-                        <span class="font-display font-bold text-lg text-white">BAG<span
-                                class="text-tactical-redAlert">READY</span></span>
+                        <span class="font-display font-bold text-lg text-white">BAG<span class="text-tactical-redAlert">READY</span></span>
                     </div>
                     <p class="text-xs text-slate-400 max-w-xs mx-auto sm:mx-0 leading-relaxed">
-                        Desarrollando equipamiento táctico e integral pre-armado de primera respuesta para mitigar los
-                        desastres de mayor envergadura en territorio boliviano.
+                        Desarrollando equipamiento táctico e integral pre-armado de primera respuesta para mitigar los desastres de mayor envergadura en territorio boliviano.
                     </p>
                 </div>
 
                 <div>
                     <h5 class="font-bold text-xs uppercase tracking-widest text-slate-300 mb-4">Secciones Clave</h5>
                     <ul class="space-y-2 text-xs text-slate-400">
-                        <li><a href="#producto" class="hover:text-white transition-colors">Componentes de la Mochila</a>
-                        </li>
+                        <li><a href="#producto" class="hover:text-white transition-colors">Componentes de la Mochila</a></li>
                         <li><a href="#problema" class="hover:text-white transition-colors">Dolores del Operario</a></li>
-                        <li><a href="#mercado" class="hover:text-white transition-colors">Análisis de Mercado
-                                Bolivia</a></li>
+                        <li><a href="#mercado" class="hover:text-white transition-colors">Análisis de Mercado Bolivia</a></li>
                         <li><a href="#canvas" class="hover:text-white transition-colors">Lienzo Lean Canvas</a></li>
                     </ul>
                 </div>
 
                 <div>
-                    <h5 class="font-bold text-xs uppercase tracking-widest text-slate-300 mb-4">Competidores Analizados
-                    </h5>
+                    <h5 class="font-bold text-xs uppercase tracking-widest text-slate-300 mb-4">Competidores Analizados</h5>
                     <ul class="space-y-2 text-xs text-slate-400">
                         <li><a href="#" class="hover:text-white transition-colors">KPN Safety (EPP)</a></li>
                         <li><a href="#" class="hover:text-white transition-colors">Contruex (Protección)</a></li>
@@ -1292,12 +1016,10 @@
                 </div>
 
                 <div>
-                    <h5 class="font-bold text-xs uppercase tracking-widest text-slate-300 mb-4">Contacto del Proyecto
-                    </h5>
+                    <h5 class="font-bold text-xs uppercase tracking-widest text-slate-300 mb-4">Contacto del Proyecto</h5>
                     <p class="text-xs text-slate-400 leading-relaxed">
-                        ¿Interesado en una prueba técnica de la mochila Bag Ready?
-                        Escríbenos.<br><br>
-                        <strong class="text-slate-300">71344349 - 77373343</strong>
+                        ¿Interesado en una prueba técnica de la mochila Bag Ready en Santa Cruz o La Paz? Escríbenos.<br><br>
+                        <strong class="text-slate-300">innovacion.bagready@utepsa.edu.bo</strong>
                     </p>
                 </div>
 
@@ -1306,10 +1028,8 @@
             <!-- Custom Interactive Toast Notification container (Instead of alert()) -->
             <div id="toast-container" class="fixed bottom-5 right-5 z-50 space-y-2 pointer-events-none"></div>
 
-            <div
-                class="mt-12 pt-8 border-t border-slate-800 flex flex-col sm:flex-row items-center justify-between gap-4 text-[11px] text-slate-500">
-                <p>&copy; 2026 BAG READY. Todos los derechos reservados. Formulación de Emprendimiento Tecnológico de
-                    UTEPSA.</p>
+            <div class="mt-12 pt-8 border-t border-slate-800 flex flex-col sm:flex-row items-center justify-between gap-4 text-[11px] text-slate-500">
+                <p>&copy; 2026 BAG READY. Todos los derechos reservados. Formulación de Emprendimiento Tecnológico de UTEPSA.</p>
                 <div class="flex gap-4">
                     <a href="#" class="hover:text-slate-400">Términos de Licencia</a>
                     <a href="#" class="hover:text-slate-400">Privacidad Operativa</a>
@@ -1340,10 +1060,10 @@
         function showFeature(titleKey, desc) {
             const titleEl = document.getElementById('feature-title');
             const descEl = document.getElementById('feature-desc');
-
+            
             const titles = {
                 meds: "Botiquín Médico de Trauma",
-                rope: "Cuerda auxiliar de perlón",
+                rope: "Cuerda Vaquera & Ganchos",
                 light: "Linterna LED Táctica",
                 compass: "Brújula Táctica Analógica",
                 rehydration: "Sales de Rehidratación Oral"
@@ -1401,7 +1121,7 @@
                 title: "Métricas de Control de Negocios",
                 tag: "Bloque 7 • Métricas Clave",
                 icon: "fa-gauge-high",
-                content: "• Tasa de adopción en estaciones piloto (porcentaje de bases equipadas).\n• Margen bruto por unidad vendida (Costo de adquisición de 800 Bs vs precio sugerido de 1,200 Bs).\n• KPI de unidades totales despachadas por lote corporativo o municipal."
+                content: "• Tasa de adopción en estaciones piloto (porcentaje de bases equipadas).\n• Margen bruto por unidad vendida (Costo de adquisición de componentes vs precio sugerido de 800 Bs).\n• KPI de unidades totales despachadas por lote corporativo o municipal."
             },
             costos: {
                 title: "Estructura de Egresos Críticos",
@@ -1413,7 +1133,7 @@
                 title: "Estructura de Flujos Financieros",
                 tag: "Bloque 9 • Fuentes de Ingreso",
                 icon: "fa-money-bill-wave",
-                content: "• Flujo Principal: Venta directa del prototipo unificado BAG READY a un valor estandarizado de 1,200 Bs.\n• Flujo Secundario: Comercialización de repuestos de medicamentos, complementos de escalada o accesorios adicionales a par de la mochila base."
+                content: "• Flujo Principal: Venta directa del prototipo unificado BAG READY a un valor estandarizado de 800 Bs.\n• Flujo Secundario: Comercialización de repuestos de medicamentos, complementos de escalada o accesorios adicionales a par de la mochila base."
             }
         };
 
@@ -1424,15 +1144,15 @@
         function openCanvasModal(key) {
             activeCanvasKey = key;
             const block = canvasState[key];
-
+            
             document.getElementById('canvas-modal-tag').textContent = block.tag;
             document.getElementById('canvas-modal-title').textContent = block.title;
             document.getElementById('canvas-modal-textarea').value = block.content;
-
+            
             // Icon
             const iconEl = document.getElementById('canvas-modal-icon');
             iconEl.innerHTML = `<i class="fa-solid ${block.icon}"></i>`;
-
+            
             document.getElementById('canvas-modal').classList.remove('hidden');
         }
 
@@ -1447,13 +1167,13 @@
             if (activeCanvasKey) {
                 const updatedContent = document.getElementById('canvas-modal-textarea').value;
                 canvasState[activeCanvasKey].content = updatedContent;
-
+                
                 // Update text summary on grid dashboard
                 const summaryEl = document.getElementById(`canvas-${activeCanvasKey}-summary`);
                 if (summaryEl) {
                     summaryEl.textContent = updatedContent;
                 }
-
+                
                 showToast("¡Bloque actualizado con éxito!", "success");
                 closeCanvasModal();
             }
@@ -1473,7 +1193,7 @@
             document.getElementById('sim-quantity-display').textContent = qty;
             document.getElementById('sim-count-label').textContent = qty;
 
-            const backpackBasePrice = 800; // Bolivianos Bs.
+            const backpackBasePrice = 800; // Bolivianos Bs. (Updated from 1200 based on scanner web.docx)
             const baseTotal = qty * backpackBasePrice;
 
             // Accessories Checkbox modifiers
@@ -1523,18 +1243,19 @@
         function showToast(message, type = 'info') {
             const container = document.getElementById('toast-container');
             const toast = document.createElement('div');
-            toast.className = `p-4 rounded-xl shadow-2xl border pointer-events-auto transition-all transform translate-y-5 opacity-0 flex items-center gap-3 text-xs font-bold uppercase tracking-wider ${type === 'success'
-                ? 'bg-tactical-cardBg border-tactical-greenForest text-tactical-greenForest'
+            toast.className = `p-4 rounded-xl shadow-2xl border pointer-events-auto transition-all transform translate-y-5 opacity-0 flex items-center gap-3 text-xs font-bold uppercase tracking-wider ${
+                type === 'success' 
+                ? 'bg-tactical-cardBg border-tactical-greenForest text-tactical-greenForest' 
                 : 'bg-tactical-cardBg border-tactical-redAlert text-tactical-redAlert'
-                }`;
-
+            }`;
+            
             toast.innerHTML = `
                 <i class="fa-solid ${type === 'success' ? 'fa-circle-check' : 'fa-bell'}"></i>
                 <span>${message}</span>
             `;
-
+            
             container.appendChild(toast);
-
+            
             // Trigger animation
             setTimeout(() => {
                 toast.classList.remove('translate-y-5', 'opacity-0');
@@ -1554,10 +1275,9 @@
         }
 
         // Window load triggers initial calculations
-        window.onload = function () {
+        window.onload = function() {
             updateSimulation();
         };
     </script>
 </body>
-
 </html>
